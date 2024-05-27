@@ -1,6 +1,7 @@
 import Head from "../../components/Head/Head"
-import Darkmode from "../../components/darkmode/Darkmode"
 import Navbar from "../../components/navbar/Navbar"
+import Slider from "../../components/slider/Slider"
+import Slideshow from "../../components/slideshow/Slideshow"
 
 
 function Home() {
@@ -10,8 +11,11 @@ function Home() {
         <Head />
       </section>
     <Navbar />
-     <hr />
-    <Darkmode />
+    <div className="mt-10 md:mt-0 p-10 md:p-20 w-full h-auto grid grid-cols-12 gap-5">
+    <Slider />
+    <Slideshow />
+    </div>
+  
     </>
   )
 }

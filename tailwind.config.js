@@ -32,6 +32,7 @@ export default {
     },
     backgroundColor : {
       'button' : '#00abe1',
+      'button-two' : '#5AA8D6',
       'bg' : '#020621'
     }
 

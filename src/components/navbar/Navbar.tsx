@@ -5,13 +5,15 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import { GiConsoleController} from 'react-icons/gi';
 import { SiHomebridge } from 'react-icons/si';
 import { LiaOpencart } from 'react-icons/lia';
-import { MdOutlinePersonOutline } from 'react-icons/md';
-
+import { MdHome, MdOutlinePersonOutline, MdOutlineShoppingCart } from 'react-icons/md';
+import './Navbar.css'
+import Darkmode from "../darkmode/Darkmode";
+import { FaReact } from "react-icons/fa";
 
 function Navbar() {
   return (
         <>
-            <Disclosure id="nav-container" as="nav" className=" top-0">
+            <Disclosure dir="rtl" id="nav-container" as="nav" className=" top-0 bg-blue-three dark:bg-bg">
            {({ open }) => (
             <>
                <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
@@ -33,25 +35,26 @@ function Navbar() {
                        <div className="flex space-x-4 ">
                        <NavLink
                            to="/login"
-                           className="text-gray-300 hover:bg-transparent  hover:text-white   px-3 py-2 text-sm font-medium Lamia flex justify-center items-center gap-2"
+                           className="text-blue-one dark:text-blue-two dark:hover:text-blue-three  hover:text-my-white    px-3 py-2 text-sm font-medium Lamia flex justify-center items-center gap-2"
                          >
-                           <span>ورود</span>
+                           <span>Login</span>
                            <MdOutlinePersonOutline />
                          </NavLink>
                          <NavLink
                            to="/shop"
-                           className="text-gray-300 hover:bg-transparent  hover:text-white   px-3 py-2 text-sm font-medium Lamia flex justify-center items-center gap-2"
+                           className="text-blue-one dark:text-blue-two dark:hover:text-blue-three  hover:text-my-white    px-3 py-2 text-sm font-medium Lamia flex justify-center items-center gap-2"
                          >
-                           <span>محصولات</span>
-                           <GiConsoleController />
+                           <span>Shop</span>
+                           <MdOutlineShoppingCart />
                          </NavLink>
                          <NavLink
                            to="/"
-                           className="text-gray-300 hover:bg-transparent hover:text-white  px-3 py-2 text-sm font-medium Lamia flex justify-center items-center gap-2"
+                           className="text-blue-one dark:text-blue-two  dark:hover:text-blue-three hover:text-my-white   px-3 py-2 text-sm font-medium Lamia flex justify-center items-center gap-2"
                          >
-                           <span>صفحه اصلی</span>
-                           <SiHomebridge />
+                           <span>Home</span>
+                           <MdHome />
                          </NavLink>
+                        
                        </div>
                      </div>
                    </div>
@@ -59,10 +62,7 @@ function Navbar() {
                      {/* Profile dropdown */}
                      <Menu as="div" className="relative ml-3">
                        <div>
-                       <NavLink to='/store'> <div className='relative'>
-                      <LiaOpencart size={22} color='#eee' className='transition-all hover:-translate-y-1' />
-                     <span className='z-10 absolute order-3 w-4 h-auto rounded-full bg-red-600 text-white text-center text-[10px] -top-1 -right-2'></span>
-                      </div></NavLink>
+                       <FaReact size={22} className="relative text-blue-900 dark:text-blue-700 cursor-pointer -mx-3 " />
                        </div>
                        <Transition
                          as={Fragment}
