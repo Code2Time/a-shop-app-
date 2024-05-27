@@ -3,8 +3,5 @@
 @tailwind utilities;
 
 *{
-    @apply transition-colors  duration-200
-}
-.handlemodecolor{
-/* @apply animate-ping */
+    @apply transition-colors  duration-75
 }

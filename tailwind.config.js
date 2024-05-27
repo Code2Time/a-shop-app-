@@ -28,9 +28,11 @@ export default {
       'blue-two' : '#CBE3EF',
       'blue-three' : '#5AA8D6',
       'blue-four' : '#3A4163',
+      'head-white' : '#d1d5db'
     },
     backgroundColor : {
-      'button' : '#00abe1'
+      'button' : '#00abe1',
+      'bg' : '#020621'
     }
 
    

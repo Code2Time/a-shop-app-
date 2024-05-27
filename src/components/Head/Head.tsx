@@ -8,12 +8,12 @@ function Head() {
   return (
     <>
       <div className="hidden md:block">
-        <div className=" text-blue-four   flex justify-around items-center h-7   ">
+        <div className="dark:text-head-white text-blue-four   flex justify-around items-center h-7   ">
           <div className="flex justify-center items-center gap-4 ">
-            <AiOutlineInstagram size={15} />
-            <TiSocialLinkedin size={15} />
-            <FaFacebookF size={15} />
-            <FaTwitter size={15} />
+            <AiOutlineInstagram size={15}  className="hover:text-head-white cursor-pointer"/>
+            <TiSocialLinkedin size={17} className="hover:text-head-white cursor-pointer" />
+            <FaFacebookF size={15} className="hover:text-head-white cursor-pointer" />
+            <FaTwitter size={15}  className="hover:text-head-white cursor-pointer"/>
           </div>
           <div className=" flex  items-center justify-center gap-7">
             <div className="flex  items-center justify-center gap-2 cursor-pointer">
