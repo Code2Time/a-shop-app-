@@ -4,6 +4,7 @@ export default {
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
+  darkMode : "class",
   theme: {
     extend: {screens: {
       'sm': '380px',
@@ -30,7 +31,7 @@ export default {
     },
     backgroundColor : {
       'button' : '#00abe1'
-    },
+    }
 
    
   },
