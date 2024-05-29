@@ -46,7 +46,7 @@ function Slideshow() {
       <Fade  {...properties} duration={3000}>
         {slideimages.map((image , index) =>(
             <div className='w-full  h-full'  key={index}>
-                <div className='flex justify-center items-center w-full h-[400px]' style={{backgroundSize : 'cover',backgroundPosition : 'center' , backgroundImage : `url(${image.url})`}}>
+                <div className='flex justify-center items-center w-full h-[500px]' style={{backgroundRepeat : 'no-repeat' ,backgroundAttachment : 'fixed' ,backgroundSize : 'cover',backgroundPosition : 'center' , backgroundImage : `url(${image.url})`}}>
                 <h1 className='absolute top-1 head text-red-500' >Special discounts</h1>
                 <h3 className='absolute bottom-10 bg-slate-100 p-2 rounded-md w-full text-center'>{image.caption}<span className='mx-3 text-xs p-2 w-1 h-1 rounded-full bg-red-700'>%{image.discount}</span></h3>
                 <Link to='/' className='absolute bottom-0 p-2 bg-button dark:bg-button-two w-full text-center border-t-2 border-gray-800'>

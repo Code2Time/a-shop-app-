@@ -46,7 +46,7 @@ const properties = {
       <Fade  {...properties} duration={3000}>
         {slideimages.map((image , index) =>(
             <div className='w-full  h-full'  key={index}>
-                <div className='flex justify-center items-center w-full h-[400px]' style={{backgroundSize : 'cover',backgroundPosition : 'center' , backgroundImage : `url(${image.url})`}}>
+                <div className='flex justify-center items-center w-full h-[500px]' style={{backgroundSize : 'cover',backgroundPosition : 'center' , backgroundImage : `url(${image.url})`}}>
             
                 </div>
             </div>
