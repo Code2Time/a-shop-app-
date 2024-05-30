@@ -1,42 +1,33 @@
+import './Thidslideshow.css'
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import { useShopingCardContext } from "../../context/ShppingCartContext";
-
-
-
-
+import { SlideData } from "./data/SlideData";
 
 function Thirdslideshow() {
+  var settings = {
+    dots: false,
+    infinite: true,
+    slidesToShow: 5,
+    slidesToScroll: 1,
+    autoplay: true,
+    speed: 9000,
+    autoplaySpeed: 1,
+    cssEase: "linear",
+    rtl : true
+  };
 
-    // var settings = {
-    //     dots: false,
-    //     infinite: true,
-    //     slidesToShow: 1,
-    //     slidesToScroll: 1,
-    //     autoplay: true,
-    //     speed: 6000,
-    //     autoplaySpeed: 1,
-    //     cssEase: "linear",
-        
-    //   };
-  
   return (
-  //   <div className="col-span-12 ">
-  //   <Slider adaptiveHeight {...settings}>
-    
-  // {user.map(item =>(
-  //   <div key={item.id}>
-  //     <img src={item.image} alt="" />
-  //   </div>
-  // ))}
-  
-  // </Slider>
-  
-  // </div>
-  <>
-  </>
-  )
+    <div className="col-span-12  ">
+      <Slider adaptiveHeight {...settings}>
+        {SlideData.map((item) => (
+          <div key={item.id} className='sm:p-5 shadow-md sm:shadow-sm mx-2 rounded-full'>
+            <img src={item.img} alt="brands-image" className='rounded-full'  />
+          </div>
+        ))}
+      </Slider>
+    </div>
+  );
 }
 
-export default Thirdslideshow
+export default Thirdslideshow;
