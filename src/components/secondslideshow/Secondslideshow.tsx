@@ -4,7 +4,7 @@ import 'react-slideshow-image/dist/styles.css';
 
 
 
-function Slideshow() {
+function Secondslideshow() {
     const slideimages = [
         { 
             url : 'https://mahdi-kheibari.github.io/e-shop-react-web-app/static/media/8SH567Z8-PINK.75d86b1417dbd58cea41.jpg',
@@ -60,4 +60,4 @@ function Slideshow() {
   )
 }
 
-export default Slideshow
+export default Secondslideshow

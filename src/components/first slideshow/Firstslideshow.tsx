@@ -4,7 +4,7 @@ import 'react-slideshow-image/dist/styles.css';
 
 
 
-function Slider() {
+function Firstslideshow() {
 
 const slideimages = [
     { 
@@ -57,4 +57,4 @@ const properties = {
   )
 }
 
-export default Slider
+export default Firstslideshow
