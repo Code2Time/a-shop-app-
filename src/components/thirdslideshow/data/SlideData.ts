@@ -26,7 +26,7 @@ export  const SlideData =[
     },
     {
         id : 6,
-        img : 'https://www.zarla.com/images/bmw-logo-2400x2400-20220519.png?crop=1:1,smart&width=150&dpr=2'
+        img : 'https://www.zarla.com/images/hp-logo-2400x2400-20220519.png?crop=1:1,smart&width=150&dpr=2'
 
     },
     {
@@ -36,7 +36,8 @@ export  const SlideData =[
     },
     {
         id : 8,
-        img : 'https://www.zarla.com/images/visa-logo-2400x2400-20220519.png?crop=1:1,smart&width=150&dpr=2'
+        img : 'https://www.zarla.com/images/pepsi-logo-2400x2400-20220513-1.png?crop=1:1,smart&width=150&dpr=2'
+
 
     },
     {
@@ -56,7 +57,7 @@ export  const SlideData =[
     },
     {
         id : 12,
-        img : 'https://www.zarla.com/images/pepsi-logo-2400x2400-20220513-1.png?crop=1:1,smart&width=150&dpr=2'
+        img : 'https://www.zarla.com/images/visa-logo-2400x2400-20220519.png?crop=1:1,smart&width=150&dpr=2'
 
     },
     {
@@ -66,7 +67,8 @@ export  const SlideData =[
     },
     {
         id : 14,
-        img : 'https://www.zarla.com/images/hp-logo-2400x2400-20220519.png?crop=1:1,smart&width=150&dpr=2'
+        img : 'https://www.zarla.com/images/bmw-logo-2400x2400-20220519.png?crop=1:1,smart&width=150&dpr=2'
+   
 
     },
     {

@@ -5,6 +5,8 @@ import Navbar from "../../components/navbar/Navbar";
 import Firstslideshow from "../../components/first slideshow/Firstslideshow";
 import Secondslideshow from "../../components/secondslideshow/Secondslideshow";
 import Thirdslideshow from "../../components/thirdslideshow/Thirdslideshow";
+import { MdKeyboardArrowDown, MdKeyboardDoubleArrowDown } from "react-icons/md";
+import { Link } from "react-router-dom";
 
 function Home() {
   return (
@@ -28,6 +30,12 @@ function Home() {
             <span className="head sm:text-xl">Top brands</span>
           </h1>
           <Thirdslideshow />
+        </div>
+        <div className="arrow-icon flex  flex-col justify-center items-center mt-16">
+          <Link to='/shop'>
+          <MdKeyboardDoubleArrowDown className="arrow-btn size-5 sm:size-10 text-blue-four animate-bounce   dark:text-gray-950 " />
+          <MdKeyboardArrowDown  className="arrow-btn size-5 sm:size-10 -mt-5  text-blue-four animate-bounce  dark:text-gray-950" />
+          </Link>
         </div>
       </Container>
     </div>
