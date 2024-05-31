@@ -16,5 +16,5 @@
  .slick-container{
    backdrop-filter: blur(25px) saturate(100%);
    -webkit-backdrop-filter: blur(25px) saturate(200%);
-   background-color: rgba(17, 25, 40, 0.304);
+   background-color: rgba(17, 25, 40, 0.116);
  }
