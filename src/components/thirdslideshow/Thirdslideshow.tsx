@@ -8,7 +8,7 @@ function Thirdslideshow() {
   var settings = {
     dots: false,
     infinite: true,
-    slidesToShow: 5,
+    slidesToShow: 7,
     slidesToScroll: 1,
     autoplay: true,
     speed: 9000,
@@ -21,7 +21,7 @@ function Thirdslideshow() {
     <div className="col-span-12  ">
       <Slider adaptiveHeight {...settings}>
         {SlideData.map((item) => (
-          <div key={item.id} className='sm:p-5 shadow-md sm:shadow-sm mx-2 rounded-full'>
+          <div key={item.id} className='sm:p-5 shadow-md sm:shadow-sm mx-2 rounded-full slick-container '>
             <img src={item.img} alt="brands-image" className='rounded-full'  />
           </div>
         ))}
