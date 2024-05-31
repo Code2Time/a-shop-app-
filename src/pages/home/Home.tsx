@@ -9,6 +9,10 @@ import { MdKeyboardArrowDown, MdKeyboardDoubleArrowDown } from "react-icons/md";
 import { Link } from "react-router-dom";
 
 function Home() {
+  // var scroll_left = (window.pageXOffset !== undefined) ? window.pageXOffset : (document.documentElement || document.body.parentNode || document.body).scrollLeft;
+  // var scroll_top = (window.pageYOffset !== undefined) ? window.pageYOffset : (document.documentElement || document.body.parentNode || document.body).scrollTop;
+
+
   return (
     <div data-aos="fade-up" data-aos-duration="900">
       <section className="bg-blue-three dark:bg-bg">
