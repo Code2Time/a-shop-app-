@@ -9,7 +9,7 @@ function CategoryItem({ image, name }: Icategory) {
           <img className="w-full h-full" src={image} alt="category-item" />
         </div>
         <div className="category-info  flex flex-col justify-center items-center absolute z-10 m-0 inset-0  text-center">
-          <h1 className="hidden  head category-title ">{name}</h1>
+          <h1 className="hidden  head category-title uppercase text-2xl ">{name}</h1>
         </div>
       </div>
     </div>
