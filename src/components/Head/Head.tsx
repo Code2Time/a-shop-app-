@@ -20,11 +20,11 @@ function Head() {
             <FaTwitter size={15}  className="hover:text-head-white cursor-pointer dark:hover:text-blue-three"/>
           </div>
           <div className=" flex  items-center justify-center gap-7">
-            <div className="flex  items-center justify-center gap-2 cursor-pointer dark:hover:text-blue-three">
+            <div className="flex  items-center justify-center gap-2 cursor-pointer dark:hover:text-blue-three hover:text-head-white">
               <span className="head text-xs ">code2time@gmail.com</span>
               <CgMail size={20} />
             </div>
-            <div className=" flex  items-center justify-center gap-2 cursor-pointer dark:hover:text-blue-three">
+            <div className=" flex  items-center justify-center gap-2 cursor-pointer dark:hover:text-blue-three hover:text-head-white">
               <span className="head text-xs">98-933-321-87-66</span>
               <FaPhoneAlt size={15} />
             </div>
