@@ -8,10 +8,12 @@
 .category-container:hover .category-img{
     filter: blur(8px);
     transform: scale(1.1);
+;
 }
 
 
 
 .category-container:hover .category-title{
 display: block;
+filter: drop-shadow(0 0  5px rgb(59, 59, 139));
 }
