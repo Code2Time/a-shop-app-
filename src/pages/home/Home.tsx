@@ -7,6 +7,8 @@ import Secondslideshow from "../../components/secondslideshow/Secondslideshow";
 import Thirdslideshow from "../../components/thirdslideshow/Thirdslideshow";
 import { MdKeyboardArrowDown, MdKeyboardDoubleArrowDown } from "react-icons/md";
 import { Link } from "react-router-dom";
+import Category from "../../components/category/Category";
+import Getproducts from "../../components/getproduct/Getproducts";
 
 function Home() {
   // var scroll_left = (window.pageXOffset !== undefined) ? window.pageXOffset : (document.documentElement || document.body.parentNode || document.body).scrollLeft;
@@ -41,6 +43,7 @@ function Home() {
           <MdKeyboardArrowDown  className="arrow-btn size-5 sm:size-10 -mt-5  text-blue-four animate-bounce  dark:text-gray-950" />
           </Link>
         </div>
+        <Category />
       </Container>
     </div>
   );

@@ -1,0 +1,17 @@
+/* .category-container{
+    transition: all 0.7s !important;
+} */
+.category-img{
+    transition: all 0.4s !important;
+}
+
+.category-container:hover .category-img{
+    filter: blur(8px);
+    transform: scale(1.1);
+}
+
+
+
+.category-container:hover .category-title{
+display: block;
+}

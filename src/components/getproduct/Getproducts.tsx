@@ -1,30 +1,29 @@
-import axios from "axios"
-import { useEffect, useState } from "react"
-import { Iproducts } from "./Iproducts"
-
+import axios from "axios";
+import { useEffect, useState } from "react";
+import { Iproducts } from "../types/Iproducts";
 
 function Getproducts() {
+  const [products, setProducts] = useState<Iproducts[]>([]);
+  var array = [];
 
-    const [products , setProducts] = useState<Iproducts[]>([])
+  useEffect(() => {
+    axios
+      .get("https://api.escuelajs.co/api/v1/categories ")
+      .then((res) => setProducts(res.data));
+  }, []);
 
-
-    useEffect(()=>{
-    axios.get('https://api.escuelajs.co/api/v1/products ')
-    .then(res => setProducts(res.data))
-    },[])
-    console.log(products)
-   
+  array = products.slice(1);
 
   return (
     <div>
-      {products.map(item =>(
+      {array.map((item) => (
         <div key={item.id}>
-            <img src={item.images[1]} alt="" className="w-20 h-20"/>
-           <h1>{item.price}</h1>
+          <img src={item.image} alt="" className="w-20 h-20" />
+          <h1>{item.price}</h1>
         </div>
       ))}
     </div>
-  )
+  );
 }
 
-export default Getproducts
+export default Getproducts;

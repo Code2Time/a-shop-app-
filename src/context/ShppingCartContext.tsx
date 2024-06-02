@@ -38,7 +38,7 @@ useEffect(()=>{
 axios.get('https://api.escuelajs.co/api/v1/categories')
 .then(res => setUser(res.data))
 },[])
-console.log(user)
+// console.log(user)
 
     return(
         <ShopingCardContext.Provider value={{user}}>
