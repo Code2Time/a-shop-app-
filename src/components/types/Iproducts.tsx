@@ -17,3 +17,7 @@ export interface Icategory {
     image: string;
     name: string;
   }
+
+  export interface Idatapaginat{
+    selected : number
+  }

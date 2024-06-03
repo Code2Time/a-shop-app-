@@ -11,7 +11,7 @@ const Category = () => {
       .get("https://api.escuelajs.co/api/v1/categories ")
       .then((res) => setCategory(res.data));
   }, []);
-  categorys = category.slice(1 , 5);
+  categorys = category.slice(3 , 7);
   // console.log(categorys)
 
   return (
