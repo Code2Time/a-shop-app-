@@ -8,7 +8,7 @@ import Thirdslideshow from "../../components/thirdslideshow/Thirdslideshow";
 import { MdKeyboardArrowDown, MdKeyboardDoubleArrowDown } from "react-icons/md";
 import { Link } from "react-router-dom";
 import Category from "../../components/category/Category";
-import Getproducts from "../../components/getproduct/Getproducts";
+import Ads from "../../components/ads/Ads";
 
 function Home() {
   // var scroll_left = (window.pageXOffset !== undefined) ? window.pageXOffset : (document.documentElement || document.body.parentNode || document.body).scrollLeft;
@@ -34,8 +34,13 @@ function Home() {
             />
             <span className="poppins sm:text-xl">Top brands</span>
           </h1>
+          
           <Thirdslideshow />
+
         </div>
+    
+   
+    
         <div className="arrow-icon flex  flex-col justify-center items-center mt-16">
           <Link to="/shop">
             <MdKeyboardDoubleArrowDown className="arrow-btn size-5 sm:size-10 text-blue-four animate-bounce   dark:text-gray-950 " />
@@ -43,7 +48,22 @@ function Home() {
           </Link>
         </div>
         <Category />
+
+    
       </Container>
+      <div className=" mt-14 sm:mt-36      md:mt-80">
+      <Ads
+          children="  Lorem ipsum dolor sit amet consectetur adiibus eligendi posrat commodi "
+          key={1}
+          baseVelocity={0.7}
+        />  <Ads
+        children="  Lorem ipsum dolor sit amet consectetur adiibus eligendi posrat commodi "
+        key={1}
+        baseVelocity={-0.7}
+      
+      />
+      </div>
+      <div className="h-[700px]"></div>
     </div>
   );
 }

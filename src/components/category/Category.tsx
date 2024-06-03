@@ -11,7 +11,7 @@ const Category = () => {
       .get("https://api.escuelajs.co/api/v1/categories ")
       .then((res) => setCategory(res.data));
   }, []);
-  categorys = category.slice(0 , 4);
+  categorys = category.slice(1 , 5);
   console.log(categorys)
 
   return (
@@ -25,7 +25,7 @@ const Category = () => {
             <span className="poppins sm:text-xl">Categorys</span>
           </h1>
       {categorys.map((item) => (
-        <CategoryItem key={item.id} {...item} />
+        categorys.length  ? <CategoryItem key={item.id} {...item} /> : "load"
       ))}
     </div>
   );
