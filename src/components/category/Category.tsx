@@ -12,7 +12,7 @@ const Category = () => {
       .then((res) => setCategory(res.data));
   }, []);
   categorys = category.slice(1 , 5);
-  console.log(categorys)
+  // console.log(categorys)
 
   return (
     <div className="grid grid-cols-12 gap-2 mt-14 p-10 sm:p-0">

@@ -9,6 +9,8 @@ import { MdKeyboardArrowDown, MdKeyboardDoubleArrowDown } from "react-icons/md";
 import { Link } from "react-router-dom";
 import Category from "../../components/category/Category";
 import Ads from "../../components/ads/Ads";
+import Getproducts from "../../components/getproduct/Getproducts";
+import Products from "../../components/products/Products";
 
 function Home() {
   // var scroll_left = (window.pageXOffset !== undefined) ? window.pageXOffset : (document.documentElement || document.body.parentNode || document.body).scrollLeft;
@@ -63,7 +65,9 @@ function Home() {
       
       />
       </div>
-      <div className="h-[700px]"></div>
+      <Container>
+      <Products />
+      </Container>
     </div>
   );
 }
