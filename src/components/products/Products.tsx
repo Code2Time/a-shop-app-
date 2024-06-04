@@ -14,21 +14,24 @@ function Products() {
 
     const[products , setProducts]=useState<Iproducts[]>([])
 
-    const fetchproducts = (pagenumber:number)=>{
-     axios.get(`https://api.escuelajs.co/api/v1/products?offset=${pagenumber}&limit=10`)
-     .then(res =>setProducts(res.data))
+    // const fetchproducts = (pageNumber:number)=>{
+   
     
-    }
+    // }
 
-  const handlePageClick = (data:Idatapaginat) => {
-    let pageNumber = (data.selected + 1)
-    fetchproducts(pageNumber)
+  // const handlePageClick = (data:Idatapaginat) => {
+    // let pageNumber :number = (data.selected + 1)*10
+    // fetchproducts(pageNumber)
 
-  };
-  // console.log(products)
+    // console.log(pageNumber)
+  // };
+
 
   useEffect(()=>{
- fetchproducts(0)
+//  fetchproducts()
+axios.get('https://dummyjson.com/products/category/smartphones')
+.then(res =>setProducts(res.data.products))
+console.log(products)
   },[])
 
   return (
@@ -40,7 +43,7 @@ function Products() {
       <ReactPaginate
         breakLabel="..."
         nextLabel={<IoArrowRedoOutline fontSize={20} />}
-        onPageChange={handlePageClick}
+        // onPageChange={handlePageClick}
         pageCount={5}
         previousLabel={<IoArrowUndoOutline fontSize={20} />}
         containerClassName="paginat-container"

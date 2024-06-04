@@ -8,7 +8,7 @@ function Getproducts() {
 
   useEffect(() => {
     axios
-      .get('https://dummyjson.com/products?limit=10&skip=10')
+      .get('https://dummyjson.com/products?limit=20&skip=10')
       .then((res) => console.log(res.data.products));
   }, []);
 console.log(products)
