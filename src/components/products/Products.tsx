@@ -25,7 +25,7 @@ function Products() {
     fetchproducts(pageNumber)
 
   };
-  console.log(products)
+  // console.log(products)
 
   useEffect(()=>{
  fetchproducts(0)

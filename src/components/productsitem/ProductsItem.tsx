@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { Iproducts } from '../types/Iproducts'
 
 function ProductsItem({images , price , title}:Iproducts) {

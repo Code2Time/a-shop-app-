@@ -1,18 +1,9 @@
-import { useEffect, useState } from "react";
 import CategoryItem from "../categoryItem/CategoryItem";
-import axios from "axios";
-import { Icategory } from "../types/Iproducts";
+import { Categories } from "./CategoryData";
 
 const Category = () => {
-  const [category, setCategory] = useState<Icategory[]>([]);
-  var categorys = [];
-  useEffect(() => {
-    axios
-      .get("https://api.escuelajs.co/api/v1/categories ")
-      .then((res) => setCategory(res.data));
-  }, []);
-  categorys = category.slice(3 , 7);
-  // console.log(categorys)
+
+
 
   return (
     <div className="grid grid-cols-12 gap-2 mt-14 p-10 sm:p-0">
@@ -24,8 +15,8 @@ const Category = () => {
             />
             <span className="poppins sm:text-xl">Categorys</span>
           </h1>
-      {categorys.map((item) => (
-        categorys.length  ? <CategoryItem key={item.id} {...item} /> : "load"
+      {Categories.map((item) => (
+       <CategoryItem key={item.id} {...item}  />
       ))}
     </div>
   );
