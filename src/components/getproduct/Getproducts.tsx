@@ -8,8 +8,8 @@ function Getproducts() {
 
   useEffect(() => {
     axios
-      .get(`https://api.escuelajs.co/api/v1/products?offset=0&limit=10`)
-      .then((res) => setProducts(res.data));
+      .get('https://dummyjson.com/products?limit=10&skip=10')
+      .then((res) => console.log(res.data.products));
   }, []);
 console.log(products)
   // array = products.slice(1);

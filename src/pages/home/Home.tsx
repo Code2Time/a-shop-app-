@@ -63,6 +63,7 @@ function Home() {
       <Container>
         <Products />
       </Container>
+      <Getproducts />
     </div>
   );
 }
