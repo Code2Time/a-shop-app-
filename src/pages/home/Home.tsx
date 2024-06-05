@@ -11,6 +11,7 @@ import Category from "../../components/category/Category";
 import Ads from "../../components/ads/Ads";
 import Getproducts from "../../components/getproduct/Getproducts";
 import Products from "../../components/products/Products";
+import Exclusivity from "../../components/exclusivity/Exclusivity";
 
 function Home() {
   // var scroll_left = (window.pageXOffset !== undefined) ? window.pageXOffset : (document.documentElement || document.body.parentNode || document.body).scrollLeft;
@@ -61,7 +62,7 @@ function Home() {
         />
       </div>
       <Container>
-        <div></div>
+     <Exclusivity />
       </Container>
     </div>
   );
