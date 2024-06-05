@@ -1,7 +1,7 @@
 export  const SlideData =[
     {
         id : 1,
-        img : 'https://www.zarla.com/images/nike-logo-2400x2400-20220504.png?crop=1:1,smart&width=150&dpr=2'
+        img : 'https://www.zarla.com/images/volkswagen-logo-2400x2400-20220520-1.png?crop=1:1,smart&width=150&dpr=2'
 
     },
     {
@@ -11,7 +11,7 @@ export  const SlideData =[
     },
     {
         id : 3,
-        img : 'https://www.zarla.com/images/twitter-logo-2400x2400-20220518-1.png?crop=1:1,smart&width=150&dpr=2'
+        img : 'https://www.zarla.com/images/twitter-logo-2400x2400-20220512.png?crop=1:1,smart&width=150&dpr=2'
 
     },
     {
@@ -21,7 +21,7 @@ export  const SlideData =[
     },
     {
         id : 5,
-        img : 'https://www.zarla.com/images/wwf-logo-2400x2400-20220512.png?crop=1:1,smart&width=150&dpr=2'
+        img : 'https://www.zarla.com/images/target-logo-2400x2400-20220513.png?crop=1:1,smart&width=150&dpr=2'
 
     },
     {
@@ -47,12 +47,12 @@ export  const SlideData =[
     },
     {
         id : 10,
-        img : 'https://www.zarla.com/images/disney-logo-2400x2400-20223105.png?crop=1:1,smart&width=150&dpr=2'
+        img : 'https://www.zarla.com/images/ford-logo-2400x2400-20220519.png?crop=1:1,smart&width=150&dpr=2'
 
     },
     {
         id : 11,
-        img : 'https://www.zarla.com/images/gap-logo-2400x2400-20220513.png?crop=1:1,smart&width=150&dpr=2'
+        img : 'https://www.zarla.com/images/gap-logo-2400x2400-20220519.png?crop=1:1,smart&width=150&dpr=2'
 
     },
     {
@@ -73,12 +73,12 @@ export  const SlideData =[
     },
     {
         id : 15,
-        img : 'https://www.zarla.com/images/samsung-logo-2400x2400-20220519.png?crop=1:1,smart&width=150&dpr=2'
+        img : 'https://www.zarla.com/images/samsung-logo-2400x2400-20220513.png?crop=1:1,smart&width=150&dpr=2'
 
     },
     {
         id : 16,
-        img : 'https://www.zarla.com/images/sony-logo-2400x2400-20220516-3.png?crop=1:1,smart&width=150&dpr=2'
+        img : 'https://www.zarla.com/images/dell-logo-2400x2400-20220516.png?crop=1:1,smart&width=150&dpr=2'
 
     },
     
