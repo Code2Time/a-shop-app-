@@ -63,6 +63,9 @@ function Home() {
       </div>
       <Container>
      <Exclusivity />
+     <div className="h-[500px]">
+
+     </div>
       </Container>
     </div>
   );

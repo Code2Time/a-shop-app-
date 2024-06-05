@@ -1,3 +1,5 @@
+import React from "react";
+
 export interface Iproducts {
   id: number;
   name: string;
@@ -22,4 +24,11 @@ export interface Icategory {
 
 export interface Idatapaginat {
   selected: number;
+}
+
+export interface IExclusivitydata{
+  id : number
+  title : string
+  desc : string
+  icon : React.ReactNode
 }
