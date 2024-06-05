@@ -22,7 +22,7 @@ function Thirdslideshow() {
       <Slider adaptiveHeight {...settings}>
         {SlideData.map((item) => (
           <div key={item.id} className='sm:p-5 shadow-md sm:shadow-sm mx-2 rounded-full slick-container  cursor-pointer'>
-            <img src={item.img} alt="brands-image" className='rounded-full'  />
+            <img key={item.id} src={item.img} alt="brands-image" className='rounded-full'  />
           </div>
         ))}
       </Slider>
