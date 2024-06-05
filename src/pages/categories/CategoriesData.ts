@@ -1,4 +1,4 @@
-export const Categories = [
+export const AllCategories = [
     {
         id : 1 ,
         name : 'FRAGRANCES',

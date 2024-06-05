@@ -7,11 +7,11 @@ function Getproducts() {
   // var array = [];
 
   useEffect(() => {
-    axios
-      .get('https://dummyjson.com/products?limit=20&skip=10')
-      .then((res) => console.log(res.data.products));
+fetch('https://dummyjson.com/products/categories')
+.then(res => res.json())
+.then(console.log);
   }, []);
-console.log(products)
+
   // array = products.slice(1);
 
   return <div>

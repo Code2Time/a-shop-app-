@@ -1,3 +1,5 @@
+import './Category.css'
+import { Link } from "react-router-dom";
 import CategoryItem from "../categoryItem/CategoryItem";
 import { Categories } from "./CategoryData";
 
@@ -6,6 +8,7 @@ const Category = () => {
 
 
   return (
+    <>
     <div className="grid grid-cols-12 gap-2 my-14 p-10 sm:p-0 h-auto">
     <h1 className=" dark:text-blue-two text-blue-four col-span-12 brand-text flex items-center justify-start border-l-4 border-blue-500 p-2 dark:border-l-0 my-2  rounded-b rounded-t">
             <img
@@ -18,7 +21,11 @@ const Category = () => {
       {Categories.map((item) => (
        <CategoryItem key={item.id} {...item}  />
       ))}
+      <Link to='/categories' className=" col-span-12 sm:col-span-6  text-center mt-7 sm:mt-16  sm:col-start-4 h-5 sm:h-10">
+        <button id="more-btn" className="bg-my-white dark:bg-transparent dark:hover:shadow-md dark:hover:shadow-blue-three text-blue-four hover:text-my-white hover:bg-blue-three dark:hover:bg-transparent    dark:text-blue-three w-full h-full rounded-md text-xs sm:text-base dark:border-b-blue-two shadow-sm  shadow-blue-three">see more...</button>
+      </Link>
     </div>
+      </>
   );
 };
 

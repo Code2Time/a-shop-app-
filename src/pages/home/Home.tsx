@@ -48,7 +48,7 @@ function Home() {
         </div>
         <Category />
       </Container>
-      <div className=" mt-14 sm:mt-36      md:mt-80">
+      <div className=" mt-5 sm:mt-36      md:mt-40">
         <Ads
           children="  Lorem ipsum dolor sit amet consectetur adiibus eligendi posrat commodi "
           key={1}
@@ -61,9 +61,8 @@ function Home() {
         />
       </div>
       <Container>
-        <Products />
+        <div></div>
       </Container>
-      <Getproducts />
     </div>
   );
 }
