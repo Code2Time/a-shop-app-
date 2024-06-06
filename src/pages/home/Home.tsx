@@ -12,6 +12,7 @@ import Ads from "../../components/ads/Ads";
 import Getproducts from "../../components/getproduct/Getproducts";
 import Products from "../../components/products/Products";
 import Exclusivity from "../../components/exclusivity/Exclusivity";
+import Explore from "../../components/explore/Explore";
 
 function Home() {
   // var scroll_left = (window.pageXOffset !== undefined) ? window.pageXOffset : (document.documentElement || document.body.parentNode || document.body).scrollLeft;
@@ -63,8 +64,8 @@ function Home() {
       </div>
       <Container>
      <Exclusivity />
-     <div className="h-[500px]">
-
+     <div className=" h-auto">
+        <Explore />
      </div>
       </Container>
     </div>

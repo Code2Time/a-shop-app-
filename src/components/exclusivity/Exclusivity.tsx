@@ -4,7 +4,7 @@ import { SiPayoneer } from "react-icons/si";
 
 function Exclusivity() {
   return (
-    <div className="grid grid-cols-12 my-32  h-auto gap-5  sm:gap-10 mt-16 sm:mt-32 md:mt-40">
+    <div className="grid grid-cols-12 my-32  h-auto gap-5    mt-16 sm:mt-32 md:mt-40">
       <div className=" ExclusivityItem-container col-span-12 sm:col-span-6 md:col-span-3 text-center   flex items-center justify-center gap-4 p-1 cursor-pointer">
         <div className="Exclusivity-img">
           <GiCommercialAirplane className="text-black dark:text-my-white size-10"  />
