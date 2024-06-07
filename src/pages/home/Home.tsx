@@ -42,7 +42,11 @@ function Home() {
           <Thirdslideshow />
         </div>
 
-        <div data-aos="slide-up" data-aos-duration="1500" className="arrow-icon flex  flex-col justify-center items-center mt-16">
+        <div
+          data-aos="slide-up"
+          data-aos-duration="1500"
+          className="arrow-icon flex  flex-col justify-center items-center mt-16"
+        >
           <Link to="/shop">
             <MdKeyboardDoubleArrowDown className="arrow-btn size-5 sm:size-10 text-blue-four animate-bounce   dark:text-gray-950 " />
             <MdKeyboardArrowDown className="arrow-btn size-5 sm:size-10 -mt-5  text-blue-four animate-bounce  dark:text-gray-950" />
@@ -63,11 +67,10 @@ function Home() {
         />
       </div>
       <Container>
-     <Exclusivity />
-     <div className=" h-auto">
         <Explore />
-     </div>
+        <Exclusivity />
       </Container>
+      <Getproducts />
     </div>
   );
 }
