@@ -1,3 +1,4 @@
+import { LiaQrcodeSolid } from 'react-icons/lia'
 import './Instagram.css'
 
 function Instagram() {
@@ -7,8 +8,9 @@ function Instagram() {
         <h1 className='uppercase poppins dark:text-blue-three'>follow us in instagram!</h1>
       </div>
       <div className='ins-qr'>
-        <div className='Qr flex flex-col  justify-center items-center gap-3 md:-ml-52 md:-mt-20 p-2 rounded-lg cursor-pointer'>
-            <img className='size-8 sm:size-20 md:size-24 cursor-pointer' src="https://codenight.ir/assets/images/instagramDarkQR.png " alt="" />
+        <div className='Qr flex flex-col  justify-center items-center gap-3 md:-ml-52 md:-mt-28 p-2 rounded-lg cursor-pointer'>
+            {/* <img src="https://codenight.ir/assets/images/instagramDarkQR.png " alt="" /> */}
+            <LiaQrcodeSolid color='white' className='size-8 sm:size-20 md:size-28 cursor-pointer' />
            <a href=""> <h3 className='uppercase  text-blue-two text-xs sm:text-base'>myshop</h3></a>
         </div>
       </div>
