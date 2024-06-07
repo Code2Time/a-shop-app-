@@ -14,6 +14,7 @@ import Products from "../../components/products/Products";
 import Exclusivity from "../../components/exclusivity/Exclusivity";
 import Explore from "../../components/explore/Explore";
 import Instagram from "../../components/instagram/Instagram";
+import Footer from "../../components/footer/Footer";
 
 function Home() {
   // var scroll_left = (window.pageXOffset !== undefined) ? window.pageXOffset : (document.documentElement || document.body.parentNode || document.body).scrollLeft;
@@ -71,8 +72,8 @@ function Home() {
         <Explore />
         <Exclusivity />
         <Instagram />
-        <div className="h-20"></div>
       </Container>
+        <Footer/>
     </div>
   );
 }
