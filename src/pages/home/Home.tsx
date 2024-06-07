@@ -13,6 +13,7 @@ import Getproducts from "../../components/getproduct/Getproducts";
 import Products from "../../components/products/Products";
 import Exclusivity from "../../components/exclusivity/Exclusivity";
 import Explore from "../../components/explore/Explore";
+import Instagram from "../../components/instagram/Instagram";
 
 function Home() {
   // var scroll_left = (window.pageXOffset !== undefined) ? window.pageXOffset : (document.documentElement || document.body.parentNode || document.body).scrollLeft;
@@ -69,8 +70,9 @@ function Home() {
       <Container>
         <Explore />
         <Exclusivity />
+        <Instagram />
+        <div className="h-20"></div>
       </Container>
-      <Getproducts />
     </div>
   );
 }
