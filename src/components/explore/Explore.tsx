@@ -19,14 +19,14 @@ function Explore() {
                 <p className="text-gray-700 dark:text-blue-four poppins text-xs sm:text-sm">Lorem ipsum dolor sit amet.</p>
             </div>
             <div className="col-span-6 overflow-hidden rounded-sm p-2">
-                <img className="rounded-sm hover:scale-110 transition-all cursor-pointer "  src="https://cdn.dummyjson.com/products/images/groceries/Cat%20Food/1.png" alt="" />
+                <img className="  rounded-sm hover:scale-110 transition-all cursor-pointer "  src="https://cdn.dummyjson.com/products/images/groceries/Cat%20Food/1.png" alt="" />
             </div>
             <div className="col-span-6 order-2  text-center ">
                 <h1 className="text-black dark:text-blue-three head text-sm  md:text-lg">Dog Food</h1>
                 <p className="text-gray-700 dark:text-blue-four poppins text-xs sm:text-sm">Lorem ipsum dolor sit amet.</p>
             </div>
             <div className="col-span-6 order-1 overflow-hidden rounded-sm p-2">
-                <img  className="rounded-sm hover:scale-110 transition-all cursor-pointer " src="https://cdn.dummyjson.com/products/images/groceries/Dog%20Food/1.png" alt="" />
+                <img  className=" rounded-sm hover:scale-110 transition-all cursor-pointer " src="https://cdn.dummyjson.com/products/images/groceries/Dog%20Food/1.png" alt="" />
             </div>
         </div>
     </div>

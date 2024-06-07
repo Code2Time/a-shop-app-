@@ -5,8 +5,8 @@ function Instagram() {
   return (
     <div className="ins-container rounded-md w-full h-[100px] my-80 flex  justify-between items-center p-4 bg-gradient-to-r from-slate-500 to-slate-300  dark:bg-gradient-to-r dark:from-[#1c1f38] dark:to-white/15 ">
       <div className="text-ins">
-        <h1 className="uppercase poppins dark:text-blue-three">
-          follow us in instagram!
+        <h1 className="uppercase poppins dark:text-blue-three text-xs sm:text-base">
+        Don't forget to follow us on Instagram
         </h1>
       </div>
       <div className="ins-qr">
