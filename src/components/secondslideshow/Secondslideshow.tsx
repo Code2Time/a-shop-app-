@@ -42,7 +42,7 @@ function Secondslideshow() {
       </button>
     }
   return (
-    <div className='slide-container col-span-12 md:col-span-4  overflow-hidden rounded-md  shadow-lg shadow-blue-three'>
+    <div className='slide-container col-span-12 md:col-span-4  overflow-hidden rounded-md  shadow-lg shadow-blue-three hidden sm:block '>
       <Fade  {...properties} duration={3000}>
         {slideimages.map((image , index) =>(
             <div className='w-full  h-full'  key={index}>

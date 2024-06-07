@@ -53,16 +53,16 @@ function Footer() {
             <BiCategoryAlt />
           </h1>
           <h3 className="text-gray-700 dark:text-blue-four poppins dark:hover:text-blue-two  ">
-            <Link to="/about">about us</Link>
+            <Link to="/about">category1</Link>
           </h3>
           <h3 className="text-gray-700 dark:text-blue-four poppins dark:hover:text-blue-two ">
-            <a href="">contact us</a>
+            <a href="#head">category2</a>
           </h3>
           <h3 className="text-gray-700 dark:text-blue-four poppins dark:hover:text-blue-two  ">
-            <a href="">contribute</a>
+            <a href="">category3</a>
           </h3>
           <h3 className="text-gray-700 dark:text-blue-four poppins dark:hover:text-blue-two  ">
-            <a href="">our location</a>
+            <a href="">category4</a>
           </h3>
         </div>
 

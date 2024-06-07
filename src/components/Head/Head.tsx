@@ -8,7 +8,7 @@ import Darkmode from "../darkmode/Darkmode";
 function Head() {
   return (
     <>
-      <div className="hidden md:block">
+      <div id="head" className="hidden md:block">
         <div className="dark:text-head-white text-blue-four   flex justify-around items-center h-7   ">
           <div className="mt-2">
           <Darkmode />
