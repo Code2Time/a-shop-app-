@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import "./404.css";
 function PageNotFound() {
   return (

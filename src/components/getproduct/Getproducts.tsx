@@ -7,9 +7,9 @@ function Getproducts() {
   // var array = [];
 
   useEffect(() => {
-fetch('https://dummyjson.com/products')
+fetch('https://dummyjson.com/products/categories')
 .then(res => res.json())
-.then(pro =>console.log(pro.products));
+.then(pro =>console.log(pro));
   }, []);
 
   // array = products.slice(1);

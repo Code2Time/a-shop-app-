@@ -5,9 +5,9 @@
     transition: all 0.4s !important;
 }
 .category-container{
-    backdrop-filter: blur(20px) saturate(180%);
-    -webkit-backdrop-filter: blur(20px) saturate(180%);
-    background-color: rgba(0, 38, 255, 0);
+    backdrop-filter: blur(2px) saturate(95%);
+    -webkit-backdrop-filter: blur(2px) saturate(180%);
+    background-color: rgba(9, 46, 255, 0.039);
 }
 .category-container:hover .category-img{
     filter: blur(8px);

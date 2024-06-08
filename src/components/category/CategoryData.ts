@@ -38,5 +38,10 @@ export const Categories = [
         id : 8 ,
         name : 'womens-watches ',
         image : 'https://cdn.dummyjson.com/products/images/womens-watches/IWC%20Ingenieur%20Automatic%20Steel/1.png'
+    },
+    {
+        id : 9 ,
+        name : 'Motorcycle ',
+        image : 'https://cdn.dummyjson.com/products/images/motorcycle/Generic%20Motorcycle/1.png'
     }
 ]
