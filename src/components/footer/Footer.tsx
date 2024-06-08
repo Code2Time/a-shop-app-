@@ -17,8 +17,11 @@ function Footer() {
           <p className="text-justify p-2 text-gray-700 dark:text-blue-four poppins">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem,
             eaque! Eveniet soluta rem enim accusantium, explicabo tenetur
-            asperiores hic quam <span className="hidden sm:block">aperiam nobis omnis, cumque architecto aliquid
-            earum laudantium vitae eum!</span>
+            asperiores hic quam{" "}
+            <span className="hidden sm:block">
+              aperiam nobis omnis, cumque architecto aliquid earum laudantium
+              vitae eum!
+            </span>
           </p>
           <p className="text-justify p-2 hidden md:block text-gray-700 dark:text-blue-four poppins">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem,
