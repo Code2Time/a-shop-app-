@@ -5,7 +5,7 @@ import "./About.css";
 
 function About() {
   return (
-    <>
+    <div data-aos="zoom-out-up">
       <Navbar />
       <Container>
         <div className="about-container h-auto">
@@ -121,7 +121,7 @@ function About() {
         </div>
       </Container>
       <Footer />
-    </>
+    </div>
   );
 }
 
