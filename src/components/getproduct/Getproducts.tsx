@@ -7,17 +7,18 @@ function Getproducts() {
   // var array = [];
 
   useEffect(() => {
-fetch('https://dummyjson.com/products/categories')
-.then(res => res.json())
-.then(pro =>console.log(pro));
+fetch('https://fakestoreapi.com/products')
+.then(res => console.log(res.json()))
+
+
   }, []);
 
   // array = products.slice(1);
 
-//   return <div>
-// <img src="https://cdn.dummyjson.com/products/images/beauty/Eyeshadow%20Palette%20with%20Mirror/1.png" alt="" />
-// <img src="https://cdn.dummyjson.com/products/images/beauty/Powder%20Canister/1.png" alt="" />
-  // </div>;
+  return <div>
+{/* <img src="https://cdn.dummyjson.com/products/images/beauty/Eyeshadow%20Palette%20with%20Mirror/1.png" alt="" />
+<img src="https://cdn.dummyjson.com/products/images/beauty/Powder%20Canister/1.png" alt="" /> */}
+  </div>;
 }
 
 export default Getproducts;

@@ -10,7 +10,6 @@ import { Link } from "react-router-dom";
 import Category from "../../components/category/Category";
 import Ads from "../../components/ads/Ads";
 import Getproducts from "../../components/getproduct/Getproducts";
-import Products from "../../components/products/Products";
 import Exclusivity from "../../components/exclusivity/Exclusivity";
 import Explore from "../../components/explore/Explore";
 import Instagram from "../../components/instagram/Instagram";
@@ -74,6 +73,7 @@ function Home() {
         <Instagram />
       </Container>
         <Footer/>
+        <Getproducts />
     </div>
   );
 }

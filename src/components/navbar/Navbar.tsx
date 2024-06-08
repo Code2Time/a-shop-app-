@@ -44,7 +44,7 @@ function Navbar() {
                            to="/shop"
                            className="text-blue-one dark:text-blue-two dark:hover:text-blue-three  hover:text-my-white    px-3 py-2 text-sm font-medium Lamia flex justify-center items-center gap-2"
                          >
-                           <span>Shop</span>
+                           <span>Cart</span>
                            <MdOutlineShoppingCart />
                          </NavLink>
                          <NavLink
