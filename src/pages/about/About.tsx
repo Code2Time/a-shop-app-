@@ -44,44 +44,79 @@ function About() {
               </div>
             </div>
           </div>
-          <div className="user-container my-20 md:my-40  ">
-            <h1 className="  text-black dark:text-blue-three head sm:text-xl md:text-2xl text-center uppercase">
+          <div className=" my-20 md:my-40  grid grid-cols-12 ">
+            <h1 className=" my-5 col-span-12 text-black dark:text-blue-three head sm:text-xl md:text-2xl text-center uppercase">
               our team!
             </h1>
-            <div className="mt-20 md:mt-32 flex justify-center items-center">
-              <div className="rounded-full overflow-hidden size-40 md:size-52 m-4 cursor-pointer shadow-blue-four shadow-md transition-all hover:-translate-y-1 hover:shadow-blue-three">
-                <img
-                  className=""
-                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYXzncWIjqSHoLi-VPVW-iKESiDUdZ92W-iQ&s"
-                  alt=""
-                />
-                
+            <div className="col-span-12 sm:col-span-6 md:col-span-3   shadow-sm shadow-blue-three cursor-pointer  rounded-full overflow-hidden   dark:bg-transparent size-32 mx-auto sm:size-40  md:size-60">
+                <div className="user-container w-full h-full rounded-sm overflow-hidden relative ">
+                  <div className="user-img w-full h-full">
+                    <img
+                      className="w-full h-full"
+                      src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4nzXxkWDJljIkikFE1lEYc1rOiE0sxbQbUg&s'
+                      alt="user-item"
+                    />
+                  </div>
+                  <div className="user-info  flex flex-col justify-center items-center absolute z-10 m-0 inset-0  text-center">
+                    <h1 className="hidden  head user-title uppercase text-2xl text-blue-four ">
+                    Henry
+                    </h1>
+                  </div>
+                </div>
               </div>
-              <div className="rounded-full overflow-hidden size-40 md:size-52 m-4 cursor-pointer shadow-blue-four shadow-md transition-all hover:-translate-y-1 hover:shadow-blue-three">
+           
+            
+              <div className="col-span-12 sm:col-span-6 md:col-span-3   shadow-sm shadow-blue-three cursor-pointer  rounded-full overflow-hidden   dark:bg-transparent size-32 mx-auto sm:size-40  md:size-60">
+                <div className="user-container w-full h-full rounded-sm overflow-hidden relative ">
+                  <div className="user-img w-full h-full">
+                    <img
+                      className="w-full h-full"
+                      src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbHwxC0JvUeEG2aSM-AQ-bIstt_CkPskKl1Q&s'
+                      alt="user-item"
+                    />
+                  </div>
+                  <div className="user-info  flex flex-col justify-center items-center absolute z-10 m-0 inset-0  text-center">
+                    <h1 className="hidden  head user-title uppercase text-2xl text-blue-four ">
+                    Oliver
+                    </h1>
+                  </div>
+                </div>
+              </div>
        
-                <img
-                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4nzXxkWDJljIkikFE1lEYc1rOiE0sxbQbUg&s"
-                  alt=""
-                />
-              
+           
+              <div className="col-span-12 sm:col-span-6 md:col-span-3   shadow-sm shadow-blue-three cursor-pointer  rounded-full overflow-hidden   dark:bg-transparent size-32 mx-auto sm:size-40  md:size-60">
+                <div className="user-container w-full h-full rounded-sm overflow-hidden relative ">
+                  <div className="user-img w-full h-full">
+                    <img
+                      className="w-full h-full"
+                      src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8vsHZkDQZVyzJa4yxLwjSEY_xdSZqyt6r1w&s'
+                      alt="user-item"
+                    />
+                  </div>
+                  <div className="user-info  flex flex-col justify-center items-center absolute z-10 m-0 inset-0  text-center">
+                    <h1 className="hidden  head user-title uppercase text-2xl text-blue-four ">
+                    Arthur
+                    </h1>
+                  </div>
+                </div>
               </div>
-              <div className="rounded-full overflow-hidden size-40 md:size-52 m-4 cursor-pointer shadow-blue-four shadow-md transition-all hover:-translate-y-1 hover:shadow-blue-three">
-  
-                <img
-                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8vsHZkDQZVyzJa4yxLwjSEY_xdSZqyt6r1w&s"
-                  alt=""
-                />
-                
+          
+              <div className="col-span-12 sm:col-span-6 md:col-span-3   shadow-sm shadow-blue-three cursor-pointer  rounded-full overflow-hidden   dark:bg-transparent size-32 mx-auto sm:size-40  md:size-60">
+                <div className="user-container w-full h-full rounded-sm overflow-hidden relative ">
+                  <div className="user-img w-full h-full">
+                    <img
+                      className="w-full h-full"
+                      src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9FYRVOcwTBmKuNLnqB7GV6ofZaGAbRc3Zkg&s'
+                      alt="user-item"
+                    />
+                  </div>
+                  <div className="user-info  flex flex-col justify-center items-center absolute z-10 m-0 inset-0  text-center">
+                    <h1 className="hidden  head user-title uppercase text-2xl text-blue-four ">
+                    Jack
+                    </h1>
+                  </div>
+                </div>
               </div>
-              <div className="rounded-full overflow-hidden size-40 md:size-52 m-4 cursor-pointer shadow-blue-four shadow-md transition-all hover:-translate-y-1 hover:shadow-blue-three">
-         
-                <img
-                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbHwxC0JvUeEG2aSM-AQ-bIstt_CkPskKl1Q&s"
-                  alt=""
-                />
-                
-              </div>
-            </div>
           </div>
         </div>
       </Container>

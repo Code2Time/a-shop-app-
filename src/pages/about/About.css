@@ -1,0 +1,16 @@
+.user-img{
+    transition: all 0.4s !important;
+}
+
+.user-container:hover .user-img{
+    filter: blur(8px);
+    transform: scale(1.1);
+;
+}
+
+
+
+.user-container:hover .user-title{
+display: block;
+filter: drop-shadow(0 0  5px rgb(59, 59, 139));
+}
