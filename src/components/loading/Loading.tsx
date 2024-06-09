@@ -2,7 +2,7 @@ import './Loading.css'
 
 function Loading() {
     return (
-        <main className='w-full h-[100vh]  '>
+        <main className='w-full h-[100vh]  bg-bg'>
         <svg className="ip" viewBox="0 0 256 128" width="256px" height="128px" xmlns="http://www.w3.org/2000/svg">
             <defs>
                 <linearGradient id="grad1" x1="0" y1="0" x2="1" y2="0">

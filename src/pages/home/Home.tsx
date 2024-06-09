@@ -14,13 +14,24 @@ import Exclusivity from "../../components/exclusivity/Exclusivity";
 import Explore from "../../components/explore/Explore";
 import Instagram from "../../components/instagram/Instagram";
 import Footer from "../../components/footer/Footer";
+import { useEffect, useState } from "react";
+import Loading from "../../components/loading/Loading";
 
 function Home() {
   // var scroll_left = (window.pageXOffset !== undefined) ? window.pageXOffset : (document.documentElement || document.body.parentNode || document.body).scrollLeft;
   // var scroll_top = (window.pageYOffset !== undefined) ? window.pageYOffset : (document.documentElement || document.body.parentNode || document.body).scrollTop;
+  const [isLoading, setIsLoading] = useState<boolean>(true);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setIsLoading(false);
+    }, 1500);
+  }, []);
 
   return (
-    <div data-aos="fade-up" data-aos-duration="900">
+    <>
+    {
+      isLoading ? <Loading /> : <div data-aos="fade-up" data-aos-duration="900">
       <section className="bg-blue-three dark:bg-bg">
         <Head />
       </section>
@@ -75,6 +86,8 @@ function Home() {
         <Footer/>
         <Getproducts />
     </div>
+    }
+   </>
   );
 }
 
