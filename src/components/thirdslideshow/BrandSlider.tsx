@@ -1,10 +1,10 @@
-import './Thidslideshow.css'
+import './BrandSlider.css'
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import { SlideData } from "./data/SlideData";
+import { SlideData } from "./data/BrandSliderData";
 
-function Thirdslideshow() {
+function BrandSlider() {
   var settings = {
     dots: false,
     infinite: true,
@@ -30,4 +30,4 @@ function Thirdslideshow() {
   );
 }
 
-export default Thirdslideshow;
+export default BrandSlider;

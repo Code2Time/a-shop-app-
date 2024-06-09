@@ -2,9 +2,6 @@ import "./Home.css";
 import Head from "../../components/Head/Head";
 import Container from "../../components/container/Container";
 import Navbar from "../../components/navbar/Navbar";
-import Firstslideshow from "../../components/first slideshow/Firstslideshow";
-import Secondslideshow from "../../components/secondslideshow/Secondslideshow";
-import Thirdslideshow from "../../components/thirdslideshow/Thirdslideshow";
 import { MdKeyboardArrowDown, MdKeyboardDoubleArrowDown } from "react-icons/md";
 import { Link } from "react-router-dom";
 import Category from "../../components/category/Category";
@@ -16,6 +13,7 @@ import Instagram from "../../components/instagram/Instagram";
 import Footer from "../../components/footer/Footer";
 import { useEffect, useState } from "react";
 import Loading from "../../components/loading/Loading";
+import BrandSlider from "../../components/thirdslideshow/BrandSlider";
 
 function Home() {
   // var scroll_left = (window.pageXOffset !== undefined) ? window.pageXOffset : (document.documentElement || document.body.parentNode || document.body).scrollLeft;
@@ -37,9 +35,12 @@ function Home() {
       </section>
       <Navbar />
       <Container>
-        <div className="mt-10 h-[500px]  w-full  grid grid-cols-12 gap-5 bg-[#edf2f7] dark:bg-bg ">
-          <Firstslideshow />
-          <Secondslideshow />
+        <div className=" text-my-white mt-10 h-[500px]  w-full  grid grid-cols-12 gap-5 bg-[#edf2f7] dark:bg-bg ">
+       
+       
+          slide shows
+
+
         </div>
         <div className="mt-20 h-autow-full  grid grid-cols-12 gap-5  ">
           <h1 className="dark:text-blue-two text-blue-four col-span-12 brand-text flex items-center justify-start border-l-4 border-blue-500 p-2 dark:border-l-0  my-2 rounded-b rounded-t ">
@@ -51,7 +52,7 @@ function Home() {
             <span className="poppins sm:text-xl">Top brands</span>
           </h1>
 
-          <Thirdslideshow />
+          <BrandSlider />
         </div>
 
         <div
