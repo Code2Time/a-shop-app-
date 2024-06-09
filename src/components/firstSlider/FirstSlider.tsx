@@ -13,9 +13,9 @@ import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 
 export default function FirstSlider() {
   return (
-    <div className='col-span-12'>
+    <div className='col-span-12 h-[500px]'>
       <Swiper 
-      
+       className='h-full w-full  mySwiper'
         spaceBetween={30}
         centeredSlides={true}
         autoplay={{
@@ -27,11 +27,11 @@ export default function FirstSlider() {
         }}
         navigation={true}
         modules={[Autoplay, Pagination, Navigation]}
-        className="mySwiper"
+        
       >
-        <SwiperSlide className=''><img className='' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMFajLfQqbQtcflSmaZ-nRocDZwIY_BS39IXKy1qoY483VLqnkNQh76M6-RhqDZdTCTQ&s" alt="" /></SwiperSlide>
-        <SwiperSlide><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMFajLfQqbQtcflSmaZ-nRocDZwIY_BS39IXKy1qoY483VLqnkNQh76M6-RhqDZdTCTQ&s" alt="" /></SwiperSlide>
-        <SwiperSlide><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMFajLfQqbQtcflSmaZ-nRocDZwIY_BS39IXKy1qoY483VLqnkNQh76M6-RhqDZdTCTQ&s" alt="" /></SwiperSlide>
+        <SwiperSlide><img className='slider-image'  src="https://images.unsplash.com/photo-1544441893-675973e31985?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" /></SwiperSlide>
+        <SwiperSlide><img className='slider-image' src="https://images.pexels.com/photos/996329/pexels-photo-996329.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" /></SwiperSlide>
+        <SwiperSlide><img className='slider-image' src="https://images.pexels.com/photos/325876/pexels-photo-325876.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" /></SwiperSlide>
      
       </Swiper>
     </div>

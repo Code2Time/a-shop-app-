@@ -38,7 +38,7 @@ function Home() {
           </section>
           <Navbar />
           <Container>
-            <div className=" text-my-white mt-10 h-[100px] overflow-hidden  w-full  grid grid-cols-12 gap-5 bg-[#edf2f7] dark:bg-transparent ">
+            <div className=" mt-10 h-[500px]   w-full  grid grid-cols-12 gap-5 shadow-md shadow-blue-three  rounded">
              <FirstSlider />
             </div>
             <div className="mt-20 h-autow-full  grid grid-cols-12 gap-5  ">
