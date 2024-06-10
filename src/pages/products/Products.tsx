@@ -4,6 +4,9 @@ import Container from "../../components/container/Container";
 import { IoLocationSharp } from "react-icons/io5";
 import { Link } from "react-router-dom";
 import Loading from "../../components/loading/Loading";
+import ProductItem from "../../components/productitem/ProductItem";
+import Head from "../../components/Head/Head";
+import Darkmode from "../../components/darkmode/Darkmode";
 
 function Products() {
   const [isLoading, setIsLoading] = useState<boolean>(true);
@@ -21,7 +24,9 @@ function Products() {
         <Loading />
       ) : (
         <div data-aos="fade-up">
+          <Head />
           <Navbar />
+
           <Container>
             <div className="flex justify-between items-center mt-10">
               <div className="item-1">
@@ -45,6 +50,22 @@ function Products() {
                   </h2>
                 </Link>
               </div>
+            </div>
+            <div className="products-container grid grid-cols-12 gap1 mt-28 sm:mt-20">
+              <h1 className="poppins  col-span-12 text-xs sm:text-base dark:text-blue-three text-blue-four  my-20 ">
+                All products
+              </h1>
+              <ProductItem />
+              <ProductItem />
+              <ProductItem />
+              <ProductItem />
+              <ProductItem />
+              <ProductItem />
+              <ProductItem />
+              <ProductItem />
+              <ProductItem />
+              <ProductItem />
+              <ProductItem />
             </div>
           </Container>
         </div>

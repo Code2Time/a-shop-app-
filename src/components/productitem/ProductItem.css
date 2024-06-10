@@ -1,0 +1,10 @@
+.item-image{
+    transition: all 0.3s;
+
+}
+.product-item-container:hover .item-image{
+    filter: blur(20px);
+}
+.product-item-container:hover .item-info{
+    display: block;
+}
