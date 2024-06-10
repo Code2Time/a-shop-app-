@@ -7,7 +7,7 @@ function Getproducts() {
   // var array = [];
 
   useEffect(() => {
-fetch('https://fakestoreapi.com/products')
+fetch('https://dummyjson.com/products')
 .then(res => console.log(res.json()))
 
 

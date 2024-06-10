@@ -1,5 +1,8 @@
-
-// Import Swiper React components
+// import images 
+import slide1 from  '../../assets/img/slide1.jpg';
+import slide2 from  '../../assets/img/slide2.jpg';
+import slide3 from  '../../assets/img/slide3.jpg';
+// Import Swiper React components;
 import { Swiper, SwiperSlide } from 'swiper/react';
 import './FirstSlide.css'
 
@@ -29,9 +32,9 @@ export default function FirstSlider() {
         modules={[Autoplay, Pagination, Navigation]}
         
       >
-        <SwiperSlide><img className='slider-image'  src="https://images.unsplash.com/photo-1544441893-675973e31985?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" /></SwiperSlide>
-        <SwiperSlide><img className='slider-image' src="https://images.pexels.com/photos/996329/pexels-photo-996329.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" /></SwiperSlide>
-        <SwiperSlide><img className='slider-image' src="https://images.pexels.com/photos/325876/pexels-photo-325876.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" /></SwiperSlide>
+        <SwiperSlide><img className='slider-image'  src={slide1} alt="" /></SwiperSlide>
+        <SwiperSlide><img className='slider-image' src={slide2} alt="" /></SwiperSlide>
+        <SwiperSlide><img className='slider-image' src={slide3} alt="" /></SwiperSlide>
      
       </Swiper>
     </div>

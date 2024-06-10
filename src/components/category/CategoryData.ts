@@ -43,5 +43,21 @@ export const Categories = [
         id : 9 ,
         name : 'Motorcycle ',
         image : 'https://cdn.dummyjson.com/products/images/motorcycle/Generic%20Motorcycle/1.png'
+    },
+    {
+        id :10 ,
+        name : 'Red Nail Polish ',
+        image : 'https://cdn.dummyjson.com/products/images/beauty/Red%20Nail%20Polish/1.png'
+    },
+    {
+        id : 11 ,
+        name : 'Fish Steak ',
+        image : 'https://cdn.dummyjson.com/products/images/groceries/Fish%20Steak/1.png'
+    },
+    {
+        id : 12 ,
+        name : 'Wooden Bathroom Sink With Mirror ',
+        image : 'https://cdn.dummyjson.com/products/images/furniture/Wooden%20Bathroom%20Sink%20With%20Mirror/1.png'
     }
+
 ]

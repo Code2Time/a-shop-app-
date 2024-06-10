@@ -1,9 +1,12 @@
+import { Link } from "react-router-dom";
 import { Icategory } from "../types/Iproducts";
 import "./CategoryItem.css";
 
 function CategoryItem({ image, name }: Icategory) {
   return (
-    <div  className="col-span-12 sm:col-span-6 md:col-span-4 h-auto sm:h-80  shadow-sm shadow-blue-three cursor-pointer  rounded-sm p-2  dark:bg-transparent">
+   
+    <div  className="col-span-12 sm:col-span-6 md:col-span-4 smd:col-span-3  h-auto sm:h-80  shadow-sm shadow-blue-three cursor-pointer  rounded-sm p-2  dark:bg-transparent">
+      <Link to='/products'>
       <div className="category-container w-full h-full rounded-sm overflow-hidden relative ">
         <div className="category-img w-full h-full">
           <img className="w-full h-full" src={image} alt="category-item" />
@@ -12,6 +15,7 @@ function CategoryItem({ image, name }: Icategory) {
           <h1 className="hidden  head category-title uppercase text-2xl text-blue-four ">{name}</h1>
         </div>
       </div>
+   </Link>
     </div>
   );
 }

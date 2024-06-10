@@ -2,6 +2,11 @@ import Container from "../../components/container/Container";
 import Footer from "../../components/footer/Footer";
 import Navbar from "../../components/navbar/Navbar";
 import "./About.css";
+// import images 
+import user1 from '../../assets/img/user1.jpg';
+import user2 from '../../assets/img/user2.jpg';
+import user3 from '../../assets/img/user3.jpg';
+import user4 from '../../assets/img/user4.jpg';
 
 function About() {
   return (
@@ -53,7 +58,7 @@ function About() {
                   <div className="user-img w-full h-full">
                     <img
                       className="w-full h-full"
-                      src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4nzXxkWDJljIkikFE1lEYc1rOiE0sxbQbUg&s'
+                      src={user1}
                       alt="user-item"
                     />
                   </div>
@@ -71,7 +76,7 @@ function About() {
                   <div className="user-img w-full h-full">
                     <img
                       className="w-full h-full"
-                      src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbHwxC0JvUeEG2aSM-AQ-bIstt_CkPskKl1Q&s'
+                      src={user2}
                       alt="user-item"
                     />
                   </div>
@@ -89,7 +94,7 @@ function About() {
                   <div className="user-img w-full h-full">
                     <img
                       className="w-full h-full"
-                      src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8vsHZkDQZVyzJa4yxLwjSEY_xdSZqyt6r1w&s'
+                      src={user3}
                       alt="user-item"
                     />
                   </div>
@@ -106,7 +111,7 @@ function About() {
                   <div className="user-img w-full h-full">
                     <img
                       className="w-full h-full"
-                      src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9FYRVOcwTBmKuNLnqB7GV6ofZaGAbRc3Zkg&s'
+                      src={user4}
                       alt="user-item"
                     />
                   </div>
