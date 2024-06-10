@@ -39,7 +39,7 @@ function Home() {
           <Navbar />
           <Container>
             <div className=" mt-10 h-[500px]   w-full  grid grid-cols-12 gap-5 shadow-md shadow-blue-three  rounded">
-             <FirstSlider />
+              <FirstSlider />
             </div>
             <div className="mt-20 h-autow-full  grid grid-cols-12 gap-5  ">
               <h1 className="dark:text-blue-two text-blue-four col-span-12 brand-text flex items-center justify-start border-l-4 border-blue-500 p-2 dark:border-l-0  my-2 rounded-b rounded-t ">
@@ -82,7 +82,6 @@ function Home() {
             <Instagram />
           </Container>
           <Footer />
-          {/* <Getproducts /> */}
         </div>
       )}
     </>

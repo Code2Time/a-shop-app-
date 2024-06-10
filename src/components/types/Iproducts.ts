@@ -32,3 +32,12 @@ export interface IExclusivitydata{
   desc : string
   icon : React.ReactNode
 }
+export interface Iallproducts{
+  id : number
+  name : string
+  img : string
+  description : string
+  price : string
+  discount : string
+  category : string
+}

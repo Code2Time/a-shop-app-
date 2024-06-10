@@ -8,8 +8,8 @@ function Getproducts() {
 
   useEffect(() => {
 fetch('https://dummyjson.com/products')
-.then(res => console.log(res.json()))
-
+.then(res => res.json())
+.then(console.log);
 
   }, []);
 

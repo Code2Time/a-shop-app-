@@ -7,6 +7,7 @@ import Loading from "../../components/loading/Loading";
 import ProductItem from "../../components/productitem/ProductItem";
 import Head from "../../components/Head/Head";
 import Darkmode from "../../components/darkmode/Darkmode";
+import { ProductsData } from "./ProductsData";
 
 function Products() {
   const [isLoading, setIsLoading] = useState<boolean>(true);
@@ -23,9 +24,11 @@ function Products() {
       {isLoading ? (
         <Loading />
       ) : (
-        <div data-aos="fade-up">
-          <Head />
-          <Navbar />
+        <div data-aos="fade-up ">
+        <div className="bg-blue-three dark:bg-bg">
+        <Head />
+        <Navbar />
+        </div>
 
           <Container>
             <div className="flex justify-between items-center mt-10">
@@ -55,17 +58,11 @@ function Products() {
               <h1 className="poppins  col-span-12 text-xs sm:text-base dark:text-blue-three text-blue-four  my-20 ">
                 All products
               </h1>
-              <ProductItem />
-              <ProductItem />
-              <ProductItem />
-              <ProductItem />
-              <ProductItem />
-              <ProductItem />
-              <ProductItem />
-              <ProductItem />
-              <ProductItem />
-              <ProductItem />
-              <ProductItem />
+              {
+                ProductsData.map(item =>(
+                  <ProductItem  key={item.id} {...item}/>
+                ))
+              }
             </div>
           </Container>
         </div>
