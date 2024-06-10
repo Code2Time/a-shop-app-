@@ -82,7 +82,7 @@ function Home() {
             <Instagram />
           </Container>
           <Footer />
-          {/* <Getproducts /> */}
+          <Getproducts />
         </div>
       )}
     </>
