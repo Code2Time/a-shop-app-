@@ -52,7 +52,7 @@ export const ProductsData = [
   {
     id: 6,
     name: "Calvin Klein CK One",
-    img: "https://cdn.dummyjson.com/products/images/fragrances/Calvin%20Klein%20CK%20One/1.png",
+    img: "https://cdn.dummyjson.com/products/images/fragrances/Calvin%20Klein%20CK%20One/3.png",
     description:
       "CK One by Calvin Klein is a classic unisex fragran…a versatile fragrance suitable for everyday wear.",
     price: "49.99",

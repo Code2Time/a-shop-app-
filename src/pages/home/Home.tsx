@@ -82,6 +82,7 @@ function Home() {
             <Instagram />
           </Container>
           <Footer />
+          {/* <Getproducts /> */}
         </div>
       )}
     </>
