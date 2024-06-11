@@ -6,11 +6,10 @@ import { Link } from "react-router-dom";
 import Loading from "../../components/loading/Loading";
 import ProductItem from "../../components/productitem/ProductItem";
 import Head from "../../components/Head/Head";
-import Darkmode from "../../components/darkmode/Darkmode";
 import { ProductsData } from "./ProductsData";
 import Footer from "../../components/footer/Footer";
 
-function Products() {
+function Store() {
   const [isLoading, setIsLoading] = useState<boolean>(true);
 
   useEffect(() => {
@@ -73,4 +72,4 @@ function Products() {
   );
 }
 
-export default Products;
+export default Store;

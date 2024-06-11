@@ -6,7 +6,7 @@ import { ShoppingCardProvider } from "./context/ShppingCartContext";
 import ScrollToTop from "./scroll/ScrollToTop";
 import Location from "./pages/location/Location";
 import About from "./pages/about/About";
-import Products from "./pages/products/Products";
+import Store from "./pages/Store/Store";
 
 function App() {
   return (
@@ -14,10 +14,10 @@ function App() {
       <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/products" element={<Products />} />
-        <Route path="*" element={<PageNotFound />} />
+        <Route path="/Store" element={<Store />} />
         <Route path="/location" element={<Location />} />
         <Route path="/about" element={<About />} />
+        <Route path="*" element={<PageNotFound />} />
       </Routes>
     </ShoppingCardProvider>
   );
