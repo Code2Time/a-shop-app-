@@ -1,0 +1,8 @@
+.product-img{
+    transition: all 0.5s;
+    filter: drop-shadow(0 0 7px #5AA8D6);
+}
+.product-img:hover{
+  filter: drop-shadow(0 0 10px #09547fd7);
+transform: scale(1.3);
+}

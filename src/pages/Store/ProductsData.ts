@@ -28,6 +28,7 @@ import I27 from '../../assets/img/products/27.png'
 import I28 from '../../assets/img/products/2.png'
 import I29 from '../../assets/img/products/29.png'
 import I30 from '../../assets/img/products/30.png'
+import { RiH1 } from 'react-icons/ri'
 
 export const ProductsData = [
   {
