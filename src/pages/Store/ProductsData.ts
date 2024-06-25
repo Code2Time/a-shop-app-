@@ -36,7 +36,7 @@ export const ProductsData = [
     name: "Essence Mascara Lash Princess",
     img: I1,
     description:
-      "The Essence Mascara Lash Princess is a popular mas… with this long-lasting and cruelty-free formula.",
+      "The Essence Mascara Lash Princess is a popular mas… with this long-lasting and cruelty-free formula.         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam distinctio perspiciatis maiores nesciunt iusto blanditiis unde totam doloribus earum nobis error voluptatem pariatur quia cumque, labore soluta. Facilis, provident accusamus?",
     price: "9.99",
     discount: "8.50",
     category: "beauty",
@@ -46,7 +46,7 @@ export const ProductsData = [
     name: "Eyeshadow Palette with Mirror",
     img: I2,
     description:
-      "The Eyeshadow Palette with Mirror offers a versati…its convenient for on-the-go makeup application",
+      "The Eyeshadow Palette with Mirror offers a versati…its convenient for on-the-go makeup application         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam distinctio perspiciatis maiores nesciunt iusto blanditiis unde totam doloribus earum nobis error voluptatem pariatur quia cumque, labore soluta. Facilis, provident accusamus?",
     price: "19.99",
     discount: "19.00",
     category: "beauty",
@@ -56,7 +56,7 @@ export const ProductsData = [
     name: "Powder Canister",
     img: I3,
     description:
-      "The Powder Canister is a finely milled setting pow…t formula, it provides a smooth and matte finish.",
+      "The Powder Canister is a finely milled setting pow…t formula, it provides a smooth and matte finish.         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam distinctio perspiciatis maiores nesciunt iusto blanditiis unde totam doloribus earum nobis error voluptatem pariatur quia cumque, labore soluta. Facilis, provident accusamus?",
     price: "14.99",
     discount: "12.32",
     category: "beauty",
@@ -66,7 +66,7 @@ export const ProductsData = [
     name: "Red Lipstick",
     img: I4,
     description:
-      "The Red Lipstick is a classic and bold choice for …a, it provides a vibrant and long-lasting finish.",
+      "The Red Lipstick is a classic and bold choice for …a, it provides a vibrant and long-lasting finish.         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam distinctio perspiciatis maiores nesciunt iusto blanditiis unde totam doloribus earum nobis error voluptatem pariatur quia cumque, labore soluta. Facilis, provident accusamus?",
     price: "12.99",
     discount: "8.32",
     category: "beauty",
@@ -76,7 +76,7 @@ export const ProductsData = [
     name: "Red Nail Polish",
     img: I5,
     description:
-      "The Red Nail Polish offers a rich and glossy red h…mula, it provides a salon-quality finish at home.",
+      "The Red Nail Polish offers a rich and glossy red h…mula, it provides a salon-quality finish at home.         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam distinctio perspiciatis maiores nesciunt iusto blanditiis unde totam doloribus earum nobis error voluptatem pariatur quia cumque, labore soluta. Facilis, provident accusamus?",
     price: "87.99",
     discount: "80.50",
     category: "beauty",
@@ -86,7 +86,7 @@ export const ProductsData = [
     name: "Calvin Klein CK One",
     img:I6,
     description:
-      "CK One by Calvin Klein is a classic unisex fragran…a versatile fragrance suitable for everyday wear.",
+      "CK One by Calvin Klein is a classic unisex fragran…a versatile fragrance suitable for everyday wear.         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam distinctio perspiciatis maiores nesciunt iusto blanditiis unde totam doloribus earum nobis error voluptatem pariatur quia cumque, labore soluta. Facilis, provident accusamus?",
     price: "49.99",
     discount: "40.99",
     category: "fragrances",
@@ -96,7 +96,7 @@ export const ProductsData = [
     name: "Chanel Coco Noir Eau De",
     img: I7,
     description:
-      "Coco Noir by Chanel is an elegant and mysterious f…e, and sandalwood. Perfect for evening occasions.",
+      "Coco Noir by Chanel is an elegant and mysterious f…e, and sandalwood. Perfect for evening occasions.         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam distinctio perspiciatis maiores nesciunt iusto blanditiis unde totam doloribus earum nobis error voluptatem pariatur quia cumque, labore soluta. Facilis, provident accusamus?",
     price: "149.99",
     discount: "120.99",
     category: "fragrances",
@@ -106,7 +106,7 @@ export const ProductsData = [
     name: "Dior Jadore",
     img:I8,
     description:
-      "Jadore by Dior is a luxurious and floral fragranc…smine. It embodies femininity and sophistication.",
+      "Jadore by Dior is a luxurious and floral fragranc…smine. It embodies femininity and sophistication.         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam distinctio perspiciatis maiores nesciunt iusto blanditiis unde totam doloribus earum nobis error voluptatem pariatur quia cumque, labore soluta. Facilis, provident accusamus?",
     price: "88.99",
     discount: "50.99",
     category: "fragrances",
@@ -116,7 +116,7 @@ export const ProductsData = [
     name: "Dolce Shine Eau de",
     img: I9,
     description:
-      "Dolce Shine by Dolce & Gabbana is a vibrant and fr…d blonde woods. It's a joyful and youthful scent.",
+      "Dolce Shine by Dolce & Gabbana is a vibrant and fr…d blonde woods. It's a joyful and youthful scent.         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam distinctio perspiciatis maiores nesciunt iusto blanditiis unde totam doloribus earum nobis error voluptatem pariatur quia cumque, labore soluta. Facilis, provident accusamus?",
     price: "69.99",
     discount: "50.40",
     category: "fragrances",
@@ -126,7 +126,7 @@ export const ProductsData = [
     name: "Gucci Bloom Eau de",
     img: I10,
     description:
-      "Gucci Bloom by Gucci is a floral and captivating f…angoon creeper. It's a modern and romantic scent.",
+      "Gucci Bloom by Gucci is a floral and captivating f…angoon creeper. It's a modern and romantic scent.         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam distinctio perspiciatis maiores nesciunt iusto blanditiis unde totam doloribus earum nobis error voluptatem pariatur quia cumque, labore soluta. Facilis, provident accusamus?",
     price: "79.99",
     discount: "62.40",
     category: "fragrances",
@@ -136,27 +136,27 @@ export const ProductsData = [
     name: "Annibale Colombo Bed",
     img: I11,
     description:
-      "The Annibale Colombo Bed is a luxurious and elegan… materials for a comfortable and stylish bedroom.",
+      "The Annibale Colombo Bed is a luxurious and elegan… materials for a comfortable and stylish bedroom.         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam distinctio perspiciatis maiores nesciunt iusto blanditiis unde totam doloribus earum nobis error voluptatem pariatur quia cumque, labore soluta. Facilis, provident accusamus?",
     price: "1899.99",
     discount: "1880.00",
     category: "furniture",
   },
   {
     id: 12,
-    name: I12,
-    img: "https://cdn.dummyjson.com/products/images/furniture/Annibale%20Colombo%20Sofa/1.png",
+    name: 'albon',
+    img: I12,
     description:
-      "The Annibale Colombo Sofa is a sophisticated and c…sign and premium upholstery for your living room.",
+      "The Annibale Colombo Sofa is a sophisticated and c…sign and premium upholstery for your living room.         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam distinctio perspiciatis maiores nesciunt iusto blanditiis unde totam doloribus earum nobis error voluptatem pariatur quia cumque, labore soluta. Facilis, provident accusamus?",
     price: "2499.99",
     discount: "2100.00",
     category: "furniture",
   },
   {
     id: 13,
-    name: I13,
-    img: "https://cdn.dummyjson.com/products/images/furniture/Bedside%20Table%20African%20Cherry/1.png",
+    name: 'lambida',
+    img:I13,
     description:
-      "The Bedside Table in African Cherry is a stylish a…convenient storage space and a touch of elegance.",
+      "The Bedside Table in African Cherry is a stylish a…convenient storage space and a touch of elegance.         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam distinctio perspiciatis maiores nesciunt iusto blanditiis unde totam doloribus earum nobis error voluptatem pariatur quia cumque, labore soluta. Facilis, provident accusamus?",
     price: "299.99",
     discount: "200.88",
     category: "furniture",
@@ -166,7 +166,7 @@ export const ProductsData = [
     name: "Knoll Saarinen Executive Conference Chair",
     img:I14,
     description:
-      "The Knoll Saarinen Executive Conference Chair is a…fice or conference room with its timeless design.",
+      "The Knoll Saarinen Executive Conference Chair is a…fice or conference room with its timeless design.         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam distinctio perspiciatis maiores nesciunt iusto blanditiis unde totam doloribus earum nobis error voluptatem pariatur quia cumque, labore soluta. Facilis, provident accusamus?",
     price: "499.99",
     discount: "340.88",
     category: "furniture",
@@ -176,7 +176,7 @@ export const ProductsData = [
     name: "Wooden Bathroom Sink With Mirror",
     img:I15,
     description:
-      "The Wooden Bathroom Sink with Mirror is a unique a…g a wooden sink countertop and a matching mirror.",
+      "The Wooden Bathroom Sink with Mirror is a unique a…g a wooden sink countertop and a matching mirror.         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam distinctio perspiciatis maiores nesciunt iusto blanditiis unde totam doloribus earum nobis error voluptatem pariatur quia cumque, labore soluta. Facilis, provident accusamus?",
     price: "799.99",
     discount: "720.00",
     category: "furniture",
@@ -186,7 +186,7 @@ export const ProductsData = [
     name: "Apple",
     img: I16,
     description:
-      "Fresh and crisp apples, perfect for snacking or incorporating into various recipes.",
+      "Fresh and crisp apples, perfect for snacking or incorporating into various recipes.         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam distinctio perspiciatis maiores nesciunt iusto blanditiis unde totam doloribus earum nobis error voluptatem pariatur quia cumque, labore soluta. Facilis, provident accusamus?",
     price: "1.99",
     discount: "1.00",
     category: "groceries",
@@ -196,7 +196,7 @@ export const ProductsData = [
     name: "Beef Steak",
     img: I17,
     description:
-      "High-quality beef steak, great for grilling or cooking to your preferred level of doneness.",
+      "High-quality beef steak, great for grilling or cooking to your preferred level of doneness         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam distinctio perspiciatis maiores nesciunt iusto blanditiis unde totam doloribus earum nobis error voluptatem pariatur quia cumque, labore soluta. Facilis, provident accusamus?.",
     price: "12.99",
     discount: "11.00",
     category: "groceries",
@@ -206,7 +206,7 @@ export const ProductsData = [
     name: "Cat Food",
     img:I18,
     description:
-      "Nutritious cat food formulated to meet the dietary needs of your feline friend.",
+      "Nutritious cat food formulated to meet the dietary needs of your feline friend.         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam distinctio perspiciatis maiores nesciunt iusto blanditiis unde totam doloribus earum nobis error voluptatem pariatur quia cumque, labore soluta. Facilis, provident accusamus?",
     price: "8.99",
     discount: "11.00",
     category: "groceries",
@@ -216,7 +216,7 @@ export const ProductsData = [
     name: "Chicken Meat",
     img: I19,
     description:
-      "Fresh and tender chicken meat, suitable for various culinary preparations.",
+      "Fresh and tender chicken meat, suitable for various culinary preparations.         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam distinctio perspiciatis maiores nesciunt iusto blanditiis unde totam doloribus earum nobis error voluptatem pariatur quia cumque, labore soluta. Facilis, provident accusamus?",
     price: "9.99",
     discount: "7.99",
     category: "groceries",
@@ -226,7 +226,7 @@ export const ProductsData = [
     name: "Cooking Oil",
     img:I20,
     description:
-      "Versatile cooking oil suitable for frying, sautéing, and various culinary applications.",
+      "Versatile cooking oil suitable for frying, sautéing, and various culinary applications         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam distinctio perspiciatis maiores nesciunt iusto blanditiis unde totam doloribus earum nobis error voluptatem pariatur quia cumque, labore soluta. Facilis, provident accusamus?.",
     price: "4.99",
     discount: "2.99",
     category: "groceries",
@@ -236,7 +236,7 @@ export const ProductsData = [
     name: "Cucumber",
     img: I21,
     description:
-      "Crisp and hydrating cucumbers, ideal for salads, snacks, or as a refreshing side.",
+      "Crisp and hydrating cucumbers, ideal for salads, snacks, or as a refreshing side         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam distinctio perspiciatis maiores nesciunt iusto blanditiis unde totam doloribus earum nobis error voluptatem pariatur quia cumque, labore soluta. Facilis, provident accusamus?",
     price: "1.49",
     discount: "1.00",
     category: "groceries",
@@ -246,7 +246,7 @@ export const ProductsData = [
     name: "Dog Food",
     img:I22,
     description:
-      "Specially formulated dog food designed to provide essential nutrients for your canine companion.",
+      "Specially formulated dog food designed to provide essential nutrients for your canine companion.         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam distinctio perspiciatis maiores nesciunt iusto blanditiis unde totam doloribus earum nobis error voluptatem pariatur quia cumque, labore soluta. Facilis, provident accusamus?",
     price: "2.99",
     discount: "2.00",
     category: "groceries",
@@ -256,7 +256,7 @@ export const ProductsData = [
     name: "Eggs",
     img:I23,
     description:
-      "Fresh eggs, a versatile ingredient for baking, cooking, or breakfast.",
+      "Fresh eggs, a versatile ingredient for baking, cooking, or breakfast.         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam distinctio perspiciatis maiores nesciunt iusto blanditiis unde totam doloribus earum nobis error voluptatem pariatur quia cumque, labore soluta. Facilis, provident accusamus?",
     price: "1.22",
     discount: "1.00",
     category: "groceries",
@@ -266,7 +266,7 @@ export const ProductsData = [
     name: "Fish Steak",
     img:I24,
     description:
-      "Quality fish steak, suitable for grilling, baking, or pan-searing.",
+      "Quality fish steak, suitable for grilling, baking, or pan-searing         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam distinctio perspiciatis maiores nesciunt iusto blanditiis unde totam doloribus earum nobis error voluptatem pariatur quia cumque, labore soluta. Facilis, provident accusamus?.",
     price: "14.99",
     discount: "13.00",
     category: "groceries",
@@ -276,7 +276,7 @@ export const ProductsData = [
     name: "Green Bell Pepper",
     img: I25,
     description:
-      "Fresh and vibrant green bell pepper, perfect for adding color and flavor to your dishes.",
+      "Fresh and vibrant green bell pepper, perfect for adding color and flavor to your dishes.         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam distinctio perspiciatis maiores nesciunt iusto blanditiis unde totam doloribus earum nobis error voluptatem pariatur quia cumque, labore soluta. Facilis, provident accusamus?",
     price: "1.29",
     discount: "1.11",
     category: "groceries",
@@ -286,7 +286,7 @@ export const ProductsData = [
     name: "Green Chili Pepper",
     img:I26,
     description:
-      "Spicy green chili pepper, ideal for adding heat to your favorite recipes.",
+      "Spicy green chili pepper, ideal for adding heat to your favorite recipes.         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam distinctio perspiciatis maiores nesciunt iusto blanditiis unde totam doloribus earum nobis error voluptatem pariatur quia cumque, labore soluta. Facilis, provident accusamus?",
     price: "0.99",
     discount: "0.99",
     category: "groceries",
@@ -296,7 +296,7 @@ export const ProductsData = [
     name: "Honey Jar",
     img:I27,
     description:
-      "Pure and natural honey in a convenient jar, perfect for sweetening beverages or drizzling over food.",
+      "Pure and natural honey in a convenient jar, perfect for sweetening beverages or drizzling over food         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam distinctio perspiciatis maiores nesciunt iusto blanditiis unde totam doloribus earum nobis error voluptatem pariatur quia cumque, labore soluta. Facilis, provident accusamus?.",
     price: "6.99",
     discount: "5.99",
     category: "groceries",
@@ -306,7 +306,7 @@ export const ProductsData = [
     name: " Ice Cream",
     img:I28,
     description:
-      "Creamy and delicious ice cream, available in various flavors for a delightful treat.",
+      "Creamy and delicious ice cream, available in various flavors for a delightful treat.         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam distinctio perspiciatis maiores nesciunt iusto blanditiis unde totam doloribus earum nobis error voluptatem pariatur quia cumque, labore soluta. Facilis, provident accusamus?",
     price: "5.49",
     discount: "4.35",
     category: "groceries",
@@ -316,7 +316,7 @@ export const ProductsData = [
     name: " Juice",
     img:I29,
     description:
-      "Refreshing fruit juice, packed with vitamins and great for staying hydrated",
+      "Refreshing fruit juice, packed with vitamins and great for staying hydrated         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam distinctio perspiciatis maiores nesciunt iusto blanditiis unde totam doloribus earum nobis error voluptatem pariatur quia cumque, labore soluta. Facilis, provident accusamus?",
     price: "3.99",
     discount: "2.99",
     category: "groceries",
@@ -326,7 +326,7 @@ export const ProductsData = [
     name: " Kiwi",
     img:I30,
     description:
-      "Nutrient-rich kiwi, perfect for snacking or adding a tropical twist to your dishes",
+      "Nutrient-rich kiwi, perfect for snacking or adding a tropical twist to your dishes         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam distinctio perspiciatis maiores nesciunt iusto blanditiis unde totam doloribus earum nobis error voluptatem pariatur quia cumque, labore soluta. Facilis, provident accusamus?",
     price: " 2.49",
     discount: "2.00",
     category: "groceries",
