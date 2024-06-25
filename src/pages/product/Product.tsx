@@ -5,25 +5,44 @@ import { Iallproducts } from "../../components/types/Iproducts";
 import Navbar from "../../components/navbar/Navbar";
 import Head from "../../components/Head/Head";
 import './product.css'
+import Container from "../../components/container/Container";
+import Suggestion from "../../components/suggestion/Suggestion";
+
+
+
 function Product() {
+  const [isLoading, setIsLoading] = useState<boolean>(true);
   const param = useParams<{ id: any }>();
   const [products, setProducts] = useState<Iallproducts[]>([]);
   useEffect(() => {
     setProducts(ProductsData);
+    setTimeout(() => {
+      setIsLoading(false);
+    }, 1000);
   }, []);
+
+
+  
+  function getRandomInt(min : number , max : number) {
+    return  Math.floor(Math.random() * (max - min + 1)) + min;
+  }
 
   let selected = products.filter((item) => item.id == param.id);
 
-  // console.log(products)
+  let suggestion =  products.filter((item) => item.id == getRandomInt(1 , 30));
+
+
+  
 
   return (
     <>
-      {selected.map((item) => (
-        <div key={item.id}>
           <div className="bg-blue-three dark:bg-bg">
             <Head />
             <Navbar />
           </div>
+    <Container>
+      {selected.map((item) => (
+        <div key={item.id}>
           <div className="productInfo-container grid grid-cols-12 h-auto overflow-hidden mt-2 sm:mt-20 gap-4 p-5">
             <div className="product-info col-span-12 sm:col-span-7 smd:col-span-6 mx-auto  ">
               <div className="flex flex-col gap-2 p-2 ">
@@ -43,6 +62,21 @@ function Product() {
         </div>
 
       ))}
+      <div className="mt-5 ">
+        <h1>
+          suggestion products
+        </h1>
+      </div>
+      <div className="flex h-auto   p-5 suggestion-container" >
+      {
+  suggestion.map(sug =>(
+    <Suggestion {...sug} />
+   
+  ))
+}
+      </div>
+
+</Container>
     </>
   );
 }

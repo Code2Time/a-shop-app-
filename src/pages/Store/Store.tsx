@@ -13,7 +13,6 @@ function Store() {
   const [isLoading, setIsLoading] = useState<boolean>(true);
 
   useEffect(() => {
-    // Simulate an API call
     setTimeout(() => {
       setIsLoading(false);
     }, 1000);
