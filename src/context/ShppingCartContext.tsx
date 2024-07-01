@@ -7,7 +7,8 @@ interface ShoppingCardProvider {
 
 interface ShopingCardContext {
   user: ShoppingUser[],
-  cartItems: IcartItems[]
+  cartItems: IcartItems[],
+  HandleIncreaseProductQty : (id : number) => void
 }
 interface IcartItems {
   id: number,
@@ -40,8 +41,27 @@ export function ShoppingCardProvider({ children }: ShoppingCardProvider) {
   }, []);
 
 
+ const HandleIncreaseProductQty = (id : number) =>{
+    setCartItems(currentitems => {
+      let selected = cartItems.find(item => item.id == id)
+      if(selected == null){
+        return [...cartItems , {id : id , qty : 1}]
+      }
+      else{
+        return currentitems.map(item =>{
+          if(item.id == id){
+            return {...item , qty : item.qty + 1}
+          }
+          else{
+            return item
+          }
+        })
+      }
+    })
+ }
+
   return (
-    <ShopingCardContext.Provider value={{ user , cartItems }}>
+    <ShopingCardContext.Provider value={{ user , cartItems , HandleIncreaseProductQty}}>
       {children}
     </ShopingCardContext.Provider>
   );
