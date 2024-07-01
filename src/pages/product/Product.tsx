@@ -8,6 +8,7 @@ import "./product.css";
 import Container from "../../components/container/Container";
 import Loading from "../../components/loading/Loading";
 import Property from "../../components/property/Property";
+import Footer from "../../components/footer/Footer";
 
 function Product() {
   const [isLoading, setIsLoading] = useState<boolean>(true);
@@ -70,6 +71,7 @@ function Product() {
             ))}
             <Property />
           </Container>
+          <Footer />
         </div>
       )}
     </>
