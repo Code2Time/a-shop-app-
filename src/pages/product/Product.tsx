@@ -7,6 +7,7 @@ import Head from "../../components/Head/Head";
 import "./product.css";
 import Container from "../../components/container/Container";
 import Loading from "../../components/loading/Loading";
+import Property from "../../components/property/Property";
 
 function Product() {
   const [isLoading, setIsLoading] = useState<boolean>(true);
@@ -67,6 +68,7 @@ function Product() {
                 </div>
               </div>
             ))}
+            <Property />
           </Container>
         </div>
       )}
