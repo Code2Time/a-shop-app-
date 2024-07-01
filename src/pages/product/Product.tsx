@@ -46,9 +46,9 @@ function Product() {
                       </p>
                       <h3 className="flex gap-10 flex-row mx-auto sm:text-xl md:text-2xl mt-5 sm:mt-10 md:mt-14 dark:text-my-white">
                         <span className="text-red-600 line-through">
-                          {item.discount}$
+                          {item.discount} $
                         </span>
-                        {item.price}$
+                        {item.price} $
                       </h3>
                       <Link className=" mt-2 smd:mt-10  " to="/">
                         <button className="py-1 poppins transition-all w-full bg-slate-300 dark:bg-transparent dark:hover:shadow-md dark:hover:shadow-blue-three text-blue-four hover:text-my-white hover:bg-blue-three dark:hover:bg-transparent    dark:text-blue-three  rounded-md text-xs sm:text-base dark:border-b-blue-two shadow-sm  shadow-blue-three">
