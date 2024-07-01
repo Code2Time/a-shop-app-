@@ -75,7 +75,7 @@ function Property() {
            like and comments
           </h2>
             <img
-              className="w-[45%] sm:w-[60%] md:w-[50%] h-4 self-end mix-blend-color-dodge"
+              className="w-[45%] sm:w-[60%] md:w-[50%] h-4 self-end mix-blend-difference dark:mix-blend-color-dodge"
               src="https://adforestpro.scriptsbundle.com/demos/assets/shape/fn-sh1.png"
               alt=""
             />
