@@ -6,19 +6,19 @@ interface ShoppingCardProvider {
 }
 
 interface ShopingCardContext {
-    user : ShoppingUser[]
+  user: ShoppingUser[],
+  cartItems: IcartItems[]
+}
+interface IcartItems {
+  id: number,
+  qty: number
 }
 
-interface ShoppingUser{
-    
-image: string
-email: string
-id : number
-name : string
-
-
-
-
+interface ShoppingUser {
+  image: string;
+  email: string;
+  id: number;
+  name: string;
 }
 
 export const ShopingCardContext = createContext(
@@ -30,19 +30,19 @@ export const useShopingCardContext = () => {
 };
 
 export function ShoppingCardProvider({ children }: ShoppingCardProvider) {
+  const [user, setUser] = useState<ShoppingUser[]>([]);
+  const [cartItems, setCartItems] = useState<IcartItems[]>([]);
+
+  useEffect(() => {
+    axios
+      .get("https://api.escuelajs.co/api/v1/categories")
+      .then((res) => setUser(res.data));
+  }, []);
 
 
-    const [user , setUser] = useState<ShoppingUser[]>([])
-
-useEffect(()=>{
-axios.get('https://api.escuelajs.co/api/v1/categories')
-.then(res => setUser(res.data))
-},[])
-// console.log(user)
-
-    return(
-        <ShopingCardContext.Provider value={{user}}>
-            {children}
-        </ShopingCardContext.Provider>
-    )
+  return (
+    <ShopingCardContext.Provider value={{ user , cartItems }}>
+      {children}
+    </ShopingCardContext.Provider>
+  );
 }
