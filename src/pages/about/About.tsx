@@ -7,11 +7,26 @@ import user1 from '../../assets/img/user1.jpg';
 import user2 from '../../assets/img/user2.jpg';
 import user3 from '../../assets/img/user3.jpg';
 import user4 from '../../assets/img/user4.jpg';
+import Head from "../../components/Head/Head";
+import { useEffect, useState } from "react";
+import Loading from "../../components/loading/Loading";
 
 function About() {
+
+  const [isLoading, setIsLoading] = useState<boolean>(true);
+  useEffect(() => {
+    setTimeout(() => {
+      setIsLoading(false);
+    }, 300);
+  }, []);
+
   return (
-    <div data-aos="zoom-out-up">
-      <Navbar />
+<div>
+  {isLoading ? <Loading /> :  <div data-aos="zoom-out-up">
+  <div className="bg-blue-three dark:bg-bg">
+  <Head />
+  <Navbar />
+  </div>
       <Container>
         <div className="about-container h-auto">
           <div className="about-us text-center w-full mx-auto mt-32 grid grid-cols-12 gap-3">
@@ -126,7 +141,8 @@ function About() {
         </div>
       </Container>
       <Footer />
-    </div>
+    </div>}
+</div>
   );
 }
 
