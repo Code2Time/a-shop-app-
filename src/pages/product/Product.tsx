@@ -11,7 +11,7 @@ import Property from "../../components/property/Property";
 import Footer from "../../components/footer/Footer";
 import { useShopingCardContext } from "../../context/ShppingCartContext";
 import { ToastContainer, toast } from "react-toastify";
-import 'react-toastify/dist/ReactToastify.css';
+import "react-toastify/dist/ReactToastify.css";
 
 function Product() {
   const [isLoading, setIsLoading] = useState<boolean>(true);
@@ -26,11 +26,12 @@ function Product() {
 
   let selected = products.filter((item) => item.id == param.id);
 
-  const { HandleIncreaseProductQty, cartItems } = useShopingCardContext();
+  const { HandleIncreaseProductQty, cartItems, CartQty } =
+    useShopingCardContext();
   console.log(cartItems);
 
   const notify = () =>
-    toast.success('با موفقیت به سبد خرید اضافه شد', {
+    toast.success("با موفقیت به سبد خرید اضافه شد", {
       position: "bottom-right",
       autoClose: 1000,
       hideProgressBar: true,
@@ -70,7 +71,12 @@ function Product() {
                         {item.price} $
                       </h3>
                       <button
-                        onClick={() => {HandleIncreaseProductQty(parseInt(param.id as string)); notify()}}
+                        onClick={() => {
+                          HandleIncreaseProductQty(
+                            parseInt(param.id as string)
+                          );
+                          notify();
+                        }}
                         className=" mt-2 smd:mt-10  py-1 poppins transition-all w-full bg-slate-300 dark:bg-transparent dark:hover:shadow-md dark:hover:shadow-blue-three text-blue-four hover:text-my-white hover:bg-blue-three dark:hover:bg-transparent    dark:text-blue-three  rounded-md text-xs sm:text-base dark:border-b-blue-two shadow-sm  shadow-blue-three"
                       >
                         Add to cart{" "}

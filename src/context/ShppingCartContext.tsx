@@ -9,7 +9,10 @@ interface ShopingCardContext {
   user: ShoppingUser[],
   cartItems: IcartItems[],
   HandleIncreaseProductQty : (id : number) => void,
-  HandleDecreaseProductQty : (id : number) => void
+  HandleDecreaseProductQty : (id : number) => void,
+  GetProductQty : (id : number) => number,
+  HandleRemoveProduct : (id : number) => void,
+  CartQty : number
 }
 interface IcartItems {
   id: number,
@@ -80,8 +83,21 @@ export function ShoppingCardProvider({ children }: ShoppingCardProvider) {
   })
 }
 
+
+const HandleRemoveProduct = (id : number)=>{
+  setCartItems(currentItems => currentItems.filter(item => item.id != id))
+}
+
+const GetProductQty = (id : number)=>{                                /* for show qty product */
+  return cartItems.find(item => item.id == id)?.qty || 0    
+}
+
+const CartQty = cartItems.reduce((totalQty , item)=> totalQty + item.qty  , 0)
+
+
+
   return (
-    <ShopingCardContext.Provider value={{ user , cartItems , HandleIncreaseProductQty , HandleDecreaseProductQty}}>
+    <ShopingCardContext.Provider value={{CartQty , user , cartItems , HandleIncreaseProductQty , HandleDecreaseProductQty , GetProductQty , HandleRemoveProduct}}>
       {children}
     </ShopingCardContext.Provider>
   );
