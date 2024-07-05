@@ -9,6 +9,7 @@ import About from "./pages/about/About";
 import Store from "./pages/Store/Store";
 import Product from "./pages/product/Product";
 import Cart from "./pages/cart/Cart";
+import Login from "./pages/login/Login";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path="/location" element={<Location />} />
         <Route path="/about" element={<About />} />
         <Route path="/cart" element={<Cart />} />
+        <Route path="/login" element={<Login />} />
         <Route path="*" element={<PageNotFound />} />
       </Routes>
     </ShoppingCardProvider>

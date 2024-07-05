@@ -1,0 +1,103 @@
+.login-container{
+   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1159%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='url(%26quot%3b%23SvgjsLinearGradient1160%26quot%3b)'%3e%3c/rect%3e%3cpath d='M -498.43977334206943%2c84 C -402.44%2c137 -210.44%2c335.4 -18.439773342069437%2c349 C 173.56%2c362.6 269.56%2c132.2 461.56022665793057%2c152 C 653.56%2c171.8 749.56%2c435.4 941.5602266579306%2c448 C 1133.56%2c460.6 1321.87%2c229.4 1421.5602266579306%2c215 C 1521.25%2c200.6 1436.31%2c343.8 1440%2c376' stroke='rgba(51%2c 121%2c 194%2c 0.58)' stroke-width='2'%3e%3c/path%3e%3cpath d='M -743.245586335158%2c408 C -647.25%2c344.6 -455.25%2c95.2 -263.245586335158%2c91 C -71.25%2c86.8 24.75%2c361.2 216.754413664842%2c387 C 408.75%2c412.8 504.75%2c202 696.754413664842%2c220 C 888.75%2c238 1028.11%2c500.4 1176.754413664842%2c477 C 1325.4%2c453.6 1387.35%2c177.8 1440%2c103' stroke='rgba(51%2c 121%2c 194%2c 0.58)' stroke-width='2'%3e%3c/path%3e%3cpath d='M -274.48844844810026%2c117 C -178.49%2c162.2 13.51%2c343.8 205.51155155189971%2c343 C 397.51%2c342.2 493.51%2c92.8 685.5115515518997%2c113 C 877.51%2c133.2 973.51%2c412.4 1165.5115515518996%2c444 C 1357.51%2c475.6 1590.61%2c260 1645.5115515518996%2c271 C 1700.41%2c282 1481.1%2c453.4 1440%2c499' stroke='rgba(51%2c 121%2c 194%2c 0.58)' stroke-width='2'%3e%3c/path%3e%3cpath d='M -247.61903507050192%2c421 C -151.62%2c382.6 40.38%2c244.6 232.38096492949808%2c229 C 424.38%2c213.4 520.38%2c345.4 712.3809649294981%2c343 C 904.38%2c340.6 1000.38%2c226.2 1192.380964929498%2c217 C 1384.38%2c207.8 1622.86%2c304.6 1672.380964929498%2c297 C 1721.9%2c289.4 1486.48%2c202.6 1440%2c179' stroke='rgba(51%2c 121%2c 194%2c 0.58)' stroke-width='2'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1159'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='15.28%25' y1='139.29%25' x2='84.72%25' y2='-39.29%25' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1160'%3e%3cstop stop-color='%230e2a47' offset='0'%3e%3c/stop%3e%3cstop stop-color='rgba(7%2c 54%2c 114%2c 1)' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.wrapper{
+    width: 420px;
+    background: transparent;
+    border: 2px solid rgba(255,255,255,0.2);
+    backdrop-filter: blur(7px);
+    box-shadow: rgba(0,0,0,0.1);
+    color: #fff;
+    border-radius:10px ;
+    padding: 30px 40px;
+}
+.wrapper h1{
+    font-size: 36px;
+    text-align: center;
+   
+
+}
+.wrapper .input-box{
+    width: 100%;
+    height:50px ;
+    position: relative;
+    margin: 30px 0;
+
+
+}
+.input-box input{
+   width: 100%;
+   height: 100%;
+   background: transparent;
+   border:none ;
+   outline: none;
+   border: 2px solid rgba(255,255,255,0.2);
+   border-radius: 40px;
+   font-size: 16px;
+   color: #fff;
+   padding: 20px 45px 20px 20px;
+
+}
+.input-box input::placeholder{
+    color: #fff;
+}
+.input-box i{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+.remember-forgot{
+    display: flex;
+    justify-content:space-between ;
+    font-size: 14.5px;
+    margin: -15px 0 15px;
+}
+.remember-forgot label input{
+    accent-color: #fff;
+    margin-right: 3px;
+}
+.remember-forgot a{
+   color: #fff; 
+   text-decoration: none;
+}
+.remember-forgot a:hover{
+    text-decoration: underline;
+
+}
+.btn{
+    width: 100%;
+    height: 45px;
+    border: none;   
+    outline: none;
+    background: #fff;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600px;
+    transition: all 0.2s;
+
+}
+.btn:hover{
+    transform: translateY(-2px);
+}
+.register-link{
+    font-size: 14.5px;
+    text-align: center;
+    margin:20px 0 15px; 
+}
+.register-link p a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+.register-link p a:hover{
+    text-decoration: underline;
+}
