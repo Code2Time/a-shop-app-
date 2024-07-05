@@ -31,7 +31,7 @@ function Product() {
   console.log(cartItems);
 
   const notify = () =>
-    toast.success("با موفقیت به سبد خرید اضافه شد", {
+    toast.success("Successfully added to cart", {
       position: "bottom-right",
       autoClose: 1000,
       hideProgressBar: true,

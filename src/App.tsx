@@ -8,6 +8,7 @@ import Location from "./pages/location/Location";
 import About from "./pages/about/About";
 import Store from "./pages/Store/Store";
 import Product from "./pages/product/Product";
+import Cart from "./pages/cart/Cart";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/product/:id" element={<Product />} />
         <Route path="/location" element={<Location />} />
         <Route path="/about" element={<About />} />
+        <Route path="/cart" element={<Cart />} />
         <Route path="*" element={<PageNotFound />} />
       </Routes>
     </ShoppingCardProvider>

@@ -2,12 +2,8 @@ import { NavLink } from "react-router-dom"
 import { Fragment} from "react";
 import { Disclosure, Menu, Transition } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
-import { GiConsoleController} from 'react-icons/gi';
-import { SiHomebridge } from 'react-icons/si';
-import { LiaOpencart } from 'react-icons/lia';
 import { MdHome, MdOutlinePersonOutline, MdOutlineShoppingCart } from 'react-icons/md';
 import './Navbar.css'
-import Darkmode from "../darkmode/Darkmode";
 import { FaReact } from "react-icons/fa";
 
 function Navbar() {
@@ -41,7 +37,7 @@ function Navbar() {
                            <MdOutlinePersonOutline />
                          </NavLink>
                          <NavLink
-                           to="/shop"
+                           to="/cart"
                            className="text-blue-one dark:text-blue-two dark:hover:text-blue-three  hover:text-my-white    px-3 py-2 text-sm font-medium Lamia flex justify-center items-center gap-2"
                          >
                            <span>Cart</span>
