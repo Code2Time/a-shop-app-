@@ -1,7 +1,7 @@
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import Home from "./pages/home/Home";
-import PageNotFound from "./pages/pagenotfound/PageNotFound";
+import PageNotFound from "./pages/404/PageNotFound";
 import { ShoppingCardProvider } from "./context/ShppingCartContext";
 import ScrollToTop from "./scroll/ScrollToTop";
 import Location from "./pages/location/Location";
