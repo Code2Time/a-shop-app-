@@ -16,6 +16,7 @@ import "react-toastify/dist/ReactToastify.css";
 function Product() {
   const [isLoading, setIsLoading] = useState<boolean>(true);
   const param = useParams<{ id: any }>();
+ 
   const [products, setProducts] = useState<Iallproducts[]>([]);
   useEffect(() => {
     setProducts(ProductsData);

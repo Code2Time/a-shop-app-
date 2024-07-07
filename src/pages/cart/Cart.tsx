@@ -6,7 +6,11 @@ import CartItem from "../../components/CartItem/CartItem";
 import { Link } from "react-router-dom";
 import { MdKeyboardDoubleArrowRight, MdOutlineKeyboardDoubleArrowLeft } from "react-icons/md";
 import Footer from "../../components/footer/Footer";
+import { useShopingCardContext } from "../../context/ShppingCartContext";
 function Cart() {
+
+  const {cartItems , CartQty} = useShopingCardContext()
+
   return (
     <div>
       <section className="bg-blue-three dark:bg-bg">
@@ -49,11 +53,14 @@ function Cart() {
             <hr className=" w-full h-auto" />
             <div className=" flex justify-around items-center my-5">
               <h1 className=" dark:text-blue-three poppins text-blck text-xs  sm:text-base md:text-lg line-clamp-1">Shopping Cart</h1>
-              <h5 className=" dark:text-blue-three poppins text-blck text-xs  sm:text-base md:text-lg  line-clamp-1">You have 4 items in your cart</h5>
+              <h5 className=" dark:text-blue-three poppins text-blck text-xs  sm:text-base md:text-lg  line-clamp-1">You have {CartQty} items in your cart</h5>
             </div>
-            <CartItem />
-            <CartItem />
-            <CartItem />
+           {
+            cartItems.map(item =>(
+              <CartItem key={item.id}  {...item} />
+            ))
+           }
+        
           </div>
         </div>
       </div>
