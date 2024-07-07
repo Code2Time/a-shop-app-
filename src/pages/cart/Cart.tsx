@@ -7,13 +7,38 @@ import { Link } from "react-router-dom";
 import { MdKeyboardDoubleArrowRight, MdOutlineKeyboardDoubleArrowLeft } from "react-icons/md";
 import Footer from "../../components/footer/Footer";
 import { useShopingCardContext } from "../../context/ShppingCartContext";
+import { TbHandClick } from "react-icons/tb";
+import emptycart from '../../assets/img/empty-cart.svg' 
 function Cart() {
 
   const {cartItems , CartQty} = useShopingCardContext()
-
+ 
   return (
-    <div>
-      <section className="bg-blue-three dark:bg-bg">
+   <>
+   {CartQty == 0 ?
+   <div className="w-full h-screen">
+      <section className="bg-blue-three dark:bg-bg z-20">
+        <Head />
+        <Navbar />
+      </section>
+    <div className="">
+ 
+      <div className=" mt-44 sm:mt-64 m-auto flex flex-col justify-center items-center z-10">
+       <img className="size-44 sm:size-52 cursor-pointer hover:scale-105 transition-all" src={emptycart} alt="" />
+        <Link
+            to="/store"
+            className="dark:hover:text-blue-two uppercase  flex flex-row-reverse justify-center items-center  hover:cursor-pointer gap-2"
+          >
+            <span>
+              <TbHandClick className="dark:text-blue-three " size={20} />
+            </span>
+            <span className="dark:text-blue-three poppins text-blck text-xs  sm:text-base md:text-lg"> your cart is empty click here for buy</span>
+          </Link>
+      </div>
+      </div>
+     
+   </div> :  <div>
+      <section className="bg-blue-three  dark:bg-bg">
         <Head />
         <Navbar />
       </section>
@@ -67,7 +92,8 @@ function Cart() {
       <div className="mt-20">
       <Footer />
       </div>
-    </div>
+    </div>}
+   </>
   );
 }
 

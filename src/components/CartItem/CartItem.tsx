@@ -18,6 +18,8 @@ function CartItem({ id, qty }: Iproduct) {
     setProduct(selected)
 },[])
 
+  
+
   const {
     HandleDecreaseProductQty,
     HandleIncreaseProductQty,

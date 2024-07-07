@@ -1,5 +1,6 @@
 import axios from "axios";
 import React, { createContext, useContext, useEffect, useState } from "react";
+import { ProductsData } from "../pages/Store/ProductsData";
 
 interface ShoppingCardProvider {
   children: React.ReactNode;
@@ -93,7 +94,6 @@ const GetProductQty = (id : number)=>{                                /* for sho
 }
 
 const CartQty = cartItems.reduce((totalQty , item)=> totalQty + item.qty  , 0)
-
 
 
   return (
