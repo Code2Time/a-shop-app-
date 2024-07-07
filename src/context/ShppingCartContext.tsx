@@ -1,6 +1,7 @@
 import axios from "axios";
 import React, { createContext, useContext, useEffect, useState } from "react";
 import { ProductsData } from "../pages/Store/ProductsData";
+import { useLocaStage } from "../hook/useLocalStorage";
 
 interface ShoppingCardProvider {
   children: React.ReactNode;
@@ -37,7 +38,7 @@ export const useShopingCardContext = () => {
 
 export function ShoppingCardProvider({ children }: ShoppingCardProvider) {
   const [user, setUser] = useState<ShoppingUser[]>([]);
-  const [cartItems, setCartItems] = useState<IcartItems[]>([]);
+  const [cartItems, setCartItems] = useLocaStage<IcartItems[]>("cartItems" , []);
 
   useEffect(() => {
     axios
