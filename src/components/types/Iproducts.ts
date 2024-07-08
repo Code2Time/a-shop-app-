@@ -15,7 +15,6 @@ export interface Iproducts {
   resolution: string;
   games_included: number;
 }
-
 export interface Icategory {
   id: number;
   image: string;

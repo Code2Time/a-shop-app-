@@ -6,7 +6,6 @@ import { MdKeyboardArrowDown, MdKeyboardDoubleArrowDown } from "react-icons/md";
 import { Link } from "react-router-dom";
 import Category from "../../components/category/Category";
 import Ads from "../../components/ads/Ads";
-import Getproducts from "../../components/getproduct/Getproducts";
 import Exclusivity from "../../components/exclusivity/Exclusivity";
 import Explore from "../../components/explore/Explore";
 import Instagram from "../../components/instagram/Instagram";
@@ -82,7 +81,6 @@ function Home() {
             <Instagram />
           </Container>
           <Footer />
-          <Getproducts />
         </div>
       )}
     </>
