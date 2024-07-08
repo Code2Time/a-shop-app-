@@ -7,16 +7,15 @@
   height: 60px !important;
 }
  
-.Toastify__toast-body {
+/* .Toastify__toast-body {
   color: #000000    ;
   font-family: 'poppins' , sans-serif;
   font-size: 16px;
-  padding-left: 20px;
   line-height: 10px !important;
   width: 80% !important;
   font-weight: 400;
   margin-left: 25px !important;
-} 
+}  */
 .Toastify__toast > button>  svg {
    margin-top: 12px;
    margin-right: 5px;

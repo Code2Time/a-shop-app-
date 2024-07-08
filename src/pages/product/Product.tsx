@@ -32,15 +32,16 @@ function Product() {
   console.log(cartItems);
 
   const notify = () =>
-    toast.success("Successfully added to cart", {
+    toast.success("Successfully added  ", {
       position: "bottom-right",
       autoClose: 1000,
-      hideProgressBar: true,
+      hideProgressBar:true,
       closeOnClick: true,
       pauseOnHover: true,
       draggable: true,
       progress: undefined,
       theme: "dark",
+      
     }); /* notify message */
   return (
     <>
