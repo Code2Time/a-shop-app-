@@ -21,6 +21,6 @@ export const Exclusivitydata = [
     id: 4,
     title: "100% orginal",
     desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, facilis.",
-    icon: "<SiPayoneer   color='white' size={35}/>"
-  }
+    icon: "<SiPayoneer   color='white' size={35}/>",
+  },
 ];

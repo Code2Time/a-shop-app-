@@ -3,7 +3,7 @@ import React from "react";
 export interface Iproducts {
   id: number;
   name: string;
-  thumbnail : string
+  thumbnail: string;
   title: string;
   description: string;
   price: number;
@@ -26,18 +26,18 @@ export interface Idatapaginat {
   selected: number;
 }
 
-export interface IExclusivitydata{
-  id : number
-  title : string
-  desc : string
-  icon : React.ReactNode
+export interface IExclusivitydata {
+  id: number;
+  title: string;
+  desc: string;
+  icon: React.ReactNode;
 }
-export interface Iallproducts{
-  id : number
-  name : string
-  img : string
-  description : string
-  price : string
-  discount : string
-  category : string
+export interface Iallproducts {
+  id: number;
+  name: string;
+  img: string;
+  description: string;
+  price: string;
+  discount: string;
+  category: string;
 }

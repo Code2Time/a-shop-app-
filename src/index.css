@@ -2,13 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    @apply transition-colors  duration-75
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  @apply transition-colors  duration-75;
 }
 
-.dark #root{
-    background-color: #03071eec !important;
+.dark #root {
+  background-color: #03071eec !important;
 }

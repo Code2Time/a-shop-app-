@@ -1,31 +1,29 @@
-.product-img{
-    transition: all 0.5s;
-    filter: drop-shadow(0 0 7px #5AA8D6);
+.product-img {
+  transition: all 0.5s;
+  filter: drop-shadow(0 0 7px #5aa8d6);
 }
-.product-img:hover{
+.product-img:hover {
   filter: drop-shadow(0 0 10px #09547fd7);
-transform: scale(1.2);
+  transform: scale(1.2);
 }
 .Toastify__toast--success {
-  border: 1px solid #3A9EA5 !important;
+  border: 1px solid #3a9ea5 !important;
   border-radius: 15px !important;
   background: #0a707e6f !important;
-  width: 90%  !important;
+  width: 90% !important;
   margin-left: -30px !important;
 }
 .Toastify__toast-body {
-  color: #000000    ;
-  font-family: 'poppins' , sans-serif;
+  color: #000000;
+  font-family: "poppins", sans-serif;
   font-size: 16px;
   line-height: 10px !important;
   width: 80% !important;
   font-weight: 400;
-margin-left: 10px !important;
-
- 
-} 
-.Toastify__toast > button>  svg {
-   margin-top: 12px;
-   margin-right: 5px;
-   color: #000000;
+  margin-left: 10px !important;
+}
+.Toastify__toast > button > svg {
+  margin-top: 12px;
+  margin-right: 5px;
+  color: #000000;
 }

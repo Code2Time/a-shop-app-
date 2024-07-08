@@ -1,4 +1,4 @@
-import './BrandSlider.css'
+import "./BrandSlider.css";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -14,15 +14,23 @@ function BrandSlider() {
     speed: 9000,
     autoplaySpeed: 1,
     cssEase: "linear",
-    rtl : true
+    rtl: true,
   };
 
   return (
     <div className="col-span-12  ">
       <Slider adaptiveHeight {...settings}>
         {SlideData.map((item) => (
-          <div key={item.id} className='sm:p-5 shadow-md sm:shadow-sm mx-2 rounded-full slick-container  cursor-pointer'>
-            <img key={item.id} src={item.img} alt="brands-image" className='rounded-full'  />
+          <div
+            key={item.id}
+            className="sm:p-5 shadow-md sm:shadow-sm mx-2 rounded-full slick-container  cursor-pointer"
+          >
+            <img
+              key={item.id}
+              src={item.img}
+              alt="brands-image"
+              className="rounded-full"
+            />
           </div>
         ))}
       </Slider>

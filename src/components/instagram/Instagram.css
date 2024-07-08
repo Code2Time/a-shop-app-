@@ -1,10 +1,10 @@
-.ins-container{
-    --tw-gradient-from: #1c1f38 var(--tw-gradient-from-position);
-    --tw-gradient-to: rgba(28,31,56,0) var(--tw-gradient-to-position);
-    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+.ins-container {
+  --tw-gradient-from: #1c1f38 var(--tw-gradient-from-position);
+  --tw-gradient-to: rgba(28, 31, 56, 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
-.Qr{
-    backdrop-filter: blur(20px) saturate(180%);
-    -webkit-backdrop-filter: blur(20px) saturate(180%);
-    background-color: rgba(0, 0, 0, 0.424);
+.Qr {
+  backdrop-filter: blur(20px) saturate(180%);
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
+  background-color: rgba(0, 0, 0, 0.424);
 }

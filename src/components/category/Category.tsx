@@ -16,7 +16,7 @@ const Category = () => {
             src="https://codenight.ir/_next/image?url=%2Fassets%2Fimages%2FtitleCirclePink.png&w=128&q=75"
             alt=""
           />
-          <span className="poppins sm:text-xl">Some  Categorys</span>
+          <span className="poppins sm:text-xl">Some Categorys</span>
         </h1>
         {Categories.map((item) => (
           <CategoryItem key={item.id} {...item} />

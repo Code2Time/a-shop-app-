@@ -45,9 +45,7 @@ function Footer() {
             <a href="">contribute</a>
           </h3>
           <h3 className="text-gray-700 dark:text-blue-four poppins dark:hover:text-blue-two  ">
-            <Link to='/location'>
-            our location
-            </Link>
+            <Link to="/location">our location</Link>
           </h3>
         </div>
         <div className="col-span-6 md:col-span-4 flex flex-col  justify-center md:mx-auto gap-2 md:gap-4 p-3">

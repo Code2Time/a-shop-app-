@@ -11,13 +11,25 @@ function Head() {
       <div id="head" className="hidden md:block">
         <div className="dark:text-head-white text-blue-four   flex justify-around items-center h-7   ">
           <div className="mt-2">
-          <Darkmode />
+            <Darkmode />
           </div>
           <div className="flex justify-center items-center gap-4 ">
-            <AiOutlineInstagram size={15}  className="hover:text-head-white cursor-pointer dark:hover:text-blue-three "/>
-            <TiSocialLinkedin size={17} className="hover:text-head-white cursor-pointer dark:hover:text-blue-three" />
-            <FaFacebookF size={15} className="hover:text-head-white cursor-pointer dark:hover:text-blue-three" />
-            <FaTwitter size={15}  className="hover:text-head-white cursor-pointer dark:hover:text-blue-three"/>
+            <AiOutlineInstagram
+              size={15}
+              className="hover:text-head-white cursor-pointer dark:hover:text-blue-three "
+            />
+            <TiSocialLinkedin
+              size={17}
+              className="hover:text-head-white cursor-pointer dark:hover:text-blue-three"
+            />
+            <FaFacebookF
+              size={15}
+              className="hover:text-head-white cursor-pointer dark:hover:text-blue-three"
+            />
+            <FaTwitter
+              size={15}
+              className="hover:text-head-white cursor-pointer dark:hover:text-blue-three"
+            />
           </div>
           <div className=" flex  items-center justify-center gap-7">
             <div className="flex  items-center justify-center gap-2 cursor-pointer dark:hover:text-blue-three hover:text-head-white">

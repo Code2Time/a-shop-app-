@@ -1,6 +1,6 @@
-#more-btn{
-    transition: all 0.2s;
+#more-btn {
+  transition: all 0.2s;
 }
-#more-btn:hover{
-    transform: translateY(-0.8px);
+#more-btn:hover {
+  transform: translateY(-0.8px);
 }

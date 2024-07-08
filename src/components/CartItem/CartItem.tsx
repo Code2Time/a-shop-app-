@@ -11,21 +11,17 @@ interface Iproduct {
 }
 
 function CartItem({ id, qty }: Iproduct) {
-
-    const [product , setProduct] = useState<Iallproducts>()
-    useEffect(()=>{
-    const selected:any = ProductsData.find(item => item.id == id)
-    setProduct(selected)
-},[])
-
-  
+  const [product, setProduct] = useState<Iallproducts>();
+  useEffect(() => {
+    const selected: any = ProductsData.find((item) => item.id == id);
+    setProduct(selected);
+  }, []);
 
   const {
     HandleDecreaseProductQty,
     HandleIncreaseProductQty,
     HandleRemoveProduct,
-
-  }   = useShopingCardContext();
+  } = useShopingCardContext();
   return (
     <div className="CartItem-container w-full overflow-x-auto h-auto mx-auto flex flex-row justify-evenly items-center  gap-5   rounded-lg px-3 py-5 my-2">
       <img
@@ -35,16 +31,20 @@ function CartItem({ id, qty }: Iproduct) {
       />
       <div>
         <h1 className="uppercase line-clamp-1 head dark:text-my-white">
-   {product?.name}
+          {product?.name}
         </h1>
         <p className="uppercase line-clamp-2 poppins dark:text-slate-400">
-         {product?.description}
+          {product?.description}
         </p>
       </div>
       <h1 className="dark:text-blue-three text-xl head">{qty}</h1>
       <div className="flex flex-col justify-center items-center">
-      <h2 className="dark:text-blue-three smd:text-lg head line-through decoration-red-500 ">${product?.price}</h2>
-      <h1 className="dark:text-blue-three smd:text-xl head ">${product?.discount}</h1>
+        <h2 className="dark:text-blue-three smd:text-lg head line-through decoration-red-500 ">
+          ${product?.price}
+        </h2>
+        <h1 className="dark:text-blue-three smd:text-xl head ">
+          ${product?.discount}
+        </h1>
       </div>
       <div className="control-buttons flex ">
         <button

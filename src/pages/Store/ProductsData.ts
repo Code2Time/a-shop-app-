@@ -1,33 +1,33 @@
-import I1 from '../../assets/img/products/1.png'
-import I2 from '../../assets/img/products/2.png'
-import I3 from '../../assets/img/products/3.png'
-import I4 from '../../assets/img/products/4.png'
-import I5 from '../../assets/img/products/5.png'
-import I6 from '../../assets/img/products/6.png'
-import I7 from '../../assets/img/products/7.png'
-import I8 from '../../assets/img/products/8.png'
-import I9 from '../../assets/img/products/9.png'
-import I10 from '../../assets/img/products/10.png'
-import I11 from '../../assets/img/products/11.png'
-import I12 from '../../assets/img/products/12.png'
-import I13 from '../../assets/img/products/13.png'
-import I14 from '../../assets/img/products/14.png'
-import I15 from '../../assets/img/products/15.png'
-import I16 from '../../assets/img/products/16.png'
-import I17 from '../../assets/img/products/17.png'
-import I18 from '../../assets/img/products/18.png'
-import I19 from '../../assets/img/products/19.png'
-import I20 from '../../assets/img/products/20.png'
-import I21 from '../../assets/img/products/21.png'
-import I22 from '../../assets/img/products/22.png'
-import I23 from '../../assets/img/products/23.png'
-import I24 from '../../assets/img/products/24.png'
-import I25 from '../../assets/img/products/25.png'
-import I26 from '../../assets/img/products/26.png'
-import I27 from '../../assets/img/products/27.png'
-import I28 from '../../assets/img/products/2.png'
-import I29 from '../../assets/img/products/29.png'
-import I30 from '../../assets/img/products/30.png'
+import I1 from "../../assets/img/products/1.png";
+import I2 from "../../assets/img/products/2.png";
+import I3 from "../../assets/img/products/3.png";
+import I4 from "../../assets/img/products/4.png";
+import I5 from "../../assets/img/products/5.png";
+import I6 from "../../assets/img/products/6.png";
+import I7 from "../../assets/img/products/7.png";
+import I8 from "../../assets/img/products/8.png";
+import I9 from "../../assets/img/products/9.png";
+import I10 from "../../assets/img/products/10.png";
+import I11 from "../../assets/img/products/11.png";
+import I12 from "../../assets/img/products/12.png";
+import I13 from "../../assets/img/products/13.png";
+import I14 from "../../assets/img/products/14.png";
+import I15 from "../../assets/img/products/15.png";
+import I16 from "../../assets/img/products/16.png";
+import I17 from "../../assets/img/products/17.png";
+import I18 from "../../assets/img/products/18.png";
+import I19 from "../../assets/img/products/19.png";
+import I20 from "../../assets/img/products/20.png";
+import I21 from "../../assets/img/products/21.png";
+import I22 from "../../assets/img/products/22.png";
+import I23 from "../../assets/img/products/23.png";
+import I24 from "../../assets/img/products/24.png";
+import I25 from "../../assets/img/products/25.png";
+import I26 from "../../assets/img/products/26.png";
+import I27 from "../../assets/img/products/27.png";
+import I28 from "../../assets/img/products/2.png";
+import I29 from "../../assets/img/products/29.png";
+import I30 from "../../assets/img/products/30.png";
 
 export const ProductsData = [
   {
@@ -83,7 +83,7 @@ export const ProductsData = [
   {
     id: 6,
     name: "Calvin Klein CK One",
-    img:I6,
+    img: I6,
     description:
       "CK One by Calvin Klein is a classic unisex fragran…a versatile fragrance suitable for everyday wear.         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam distinctio perspiciatis maiores nesciunt iusto blanditiis unde totam doloribus earum nobis error voluptatem pariatur quia cumque, labore soluta. Facilis, provident accusamus?",
     price: "49.99",
@@ -103,7 +103,7 @@ export const ProductsData = [
   {
     id: 8,
     name: "Dior Jadore",
-    img:I8,
+    img: I8,
     description:
       "Jadore by Dior is a luxurious and floral fragranc…smine. It embodies femininity and sophistication.         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam distinctio perspiciatis maiores nesciunt iusto blanditiis unde totam doloribus earum nobis error voluptatem pariatur quia cumque, labore soluta. Facilis, provident accusamus?",
     price: "88.99",
@@ -142,7 +142,7 @@ export const ProductsData = [
   },
   {
     id: 12,
-    name: 'albon',
+    name: "albon",
     img: I12,
     description:
       "The Annibale Colombo Sofa is a sophisticated and c…sign and premium upholstery for your living room.         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam distinctio perspiciatis maiores nesciunt iusto blanditiis unde totam doloribus earum nobis error voluptatem pariatur quia cumque, labore soluta. Facilis, provident accusamus?",
@@ -152,8 +152,8 @@ export const ProductsData = [
   },
   {
     id: 13,
-    name: 'lambida',
-    img:I13,
+    name: "lambida",
+    img: I13,
     description:
       "The Bedside Table in African Cherry is a stylish a…convenient storage space and a touch of elegance.         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam distinctio perspiciatis maiores nesciunt iusto blanditiis unde totam doloribus earum nobis error voluptatem pariatur quia cumque, labore soluta. Facilis, provident accusamus?",
     price: "299.99",
@@ -163,7 +163,7 @@ export const ProductsData = [
   {
     id: 14,
     name: "Knoll Saarinen Executive Conference Chair",
-    img:I14,
+    img: I14,
     description:
       "The Knoll Saarinen Executive Conference Chair is a…fice or conference room with its timeless design.         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam distinctio perspiciatis maiores nesciunt iusto blanditiis unde totam doloribus earum nobis error voluptatem pariatur quia cumque, labore soluta. Facilis, provident accusamus?",
     price: "499.99",
@@ -173,7 +173,7 @@ export const ProductsData = [
   {
     id: 15,
     name: "Wooden Bathroom Sink With Mirror",
-    img:I15,
+    img: I15,
     description:
       "The Wooden Bathroom Sink with Mirror is a unique a…g a wooden sink countertop and a matching mirror.         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam distinctio perspiciatis maiores nesciunt iusto blanditiis unde totam doloribus earum nobis error voluptatem pariatur quia cumque, labore soluta. Facilis, provident accusamus?",
     price: "799.99",
@@ -203,7 +203,7 @@ export const ProductsData = [
   {
     id: 18,
     name: "Cat Food",
-    img:I18,
+    img: I18,
     description:
       "Nutritious cat food formulated to meet the dietary needs of your feline friend.         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam distinctio perspiciatis maiores nesciunt iusto blanditiis unde totam doloribus earum nobis error voluptatem pariatur quia cumque, labore soluta. Facilis, provident accusamus?",
     price: "8.99",
@@ -223,7 +223,7 @@ export const ProductsData = [
   {
     id: 20,
     name: "Cooking Oil",
-    img:I20,
+    img: I20,
     description:
       "Versatile cooking oil suitable for frying, sautéing, and various culinary applications         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam distinctio perspiciatis maiores nesciunt iusto blanditiis unde totam doloribus earum nobis error voluptatem pariatur quia cumque, labore soluta. Facilis, provident accusamus?.",
     price: "4.99",
@@ -243,7 +243,7 @@ export const ProductsData = [
   {
     id: 22,
     name: "Dog Food",
-    img:I22,
+    img: I22,
     description:
       "Specially formulated dog food designed to provide essential nutrients for your canine companion.         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam distinctio perspiciatis maiores nesciunt iusto blanditiis unde totam doloribus earum nobis error voluptatem pariatur quia cumque, labore soluta. Facilis, provident accusamus?",
     price: "2.99",
@@ -253,7 +253,7 @@ export const ProductsData = [
   {
     id: 23,
     name: "Eggs",
-    img:I23,
+    img: I23,
     description:
       "Fresh eggs, a versatile ingredient for baking, cooking, or breakfast.         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam distinctio perspiciatis maiores nesciunt iusto blanditiis unde totam doloribus earum nobis error voluptatem pariatur quia cumque, labore soluta. Facilis, provident accusamus?",
     price: "1.22",
@@ -263,7 +263,7 @@ export const ProductsData = [
   {
     id: 24,
     name: "Fish Steak",
-    img:I24,
+    img: I24,
     description:
       "Quality fish steak, suitable for grilling, baking, or pan-searing         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam distinctio perspiciatis maiores nesciunt iusto blanditiis unde totam doloribus earum nobis error voluptatem pariatur quia cumque, labore soluta. Facilis, provident accusamus?.",
     price: "14.99",
@@ -283,7 +283,7 @@ export const ProductsData = [
   {
     id: 26,
     name: "Green Chili Pepper",
-    img:I26,
+    img: I26,
     description:
       "Spicy green chili pepper, ideal for adding heat to your favorite recipes.         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam distinctio perspiciatis maiores nesciunt iusto blanditiis unde totam doloribus earum nobis error voluptatem pariatur quia cumque, labore soluta. Facilis, provident accusamus?",
     price: "0.99",
@@ -293,7 +293,7 @@ export const ProductsData = [
   {
     id: 27,
     name: "Honey Jar",
-    img:I27,
+    img: I27,
     description:
       "Pure and natural honey in a convenient jar, perfect for sweetening beverages or drizzling over food         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam distinctio perspiciatis maiores nesciunt iusto blanditiis unde totam doloribus earum nobis error voluptatem pariatur quia cumque, labore soluta. Facilis, provident accusamus?.",
     price: "6.99",
@@ -303,7 +303,7 @@ export const ProductsData = [
   {
     id: 28,
     name: " Ice Cream",
-    img:I28,
+    img: I28,
     description:
       "Creamy and delicious ice cream, available in various flavors for a delightful treat.         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam distinctio perspiciatis maiores nesciunt iusto blanditiis unde totam doloribus earum nobis error voluptatem pariatur quia cumque, labore soluta. Facilis, provident accusamus?",
     price: "5.49",
@@ -313,7 +313,7 @@ export const ProductsData = [
   {
     id: 29,
     name: " Juice",
-    img:I29,
+    img: I29,
     description:
       "Refreshing fruit juice, packed with vitamins and great for staying hydrated         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam distinctio perspiciatis maiores nesciunt iusto blanditiis unde totam doloribus earum nobis error voluptatem pariatur quia cumque, labore soluta. Facilis, provident accusamus?",
     price: "3.99",
@@ -323,7 +323,7 @@ export const ProductsData = [
   {
     id: 30,
     name: " Kiwi",
-    img:I30,
+    img: I30,
     description:
       "Nutrient-rich kiwi, perfect for snacking or adding a tropical twist to your dishes         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam distinctio perspiciatis maiores nesciunt iusto blanditiis unde totam doloribus earum nobis error voluptatem pariatur quia cumque, labore soluta. Facilis, provident accusamus?",
     price: " 2.49",

@@ -16,7 +16,7 @@ import "react-toastify/dist/ReactToastify.css";
 function Product() {
   const [isLoading, setIsLoading] = useState<boolean>(true);
   const param = useParams<{ id: any }>();
- 
+
   const [products, setProducts] = useState<Iallproducts[]>([]);
   useEffect(() => {
     setProducts(ProductsData);
@@ -35,13 +35,12 @@ function Product() {
     toast.success("Successfully added  ", {
       position: "bottom-right",
       autoClose: 1000,
-      hideProgressBar:true,
+      hideProgressBar: true,
       closeOnClick: true,
       pauseOnHover: true,
       draggable: true,
       progress: undefined,
       theme: "dark",
-      
     }); /* notify message */
   return (
     <>
