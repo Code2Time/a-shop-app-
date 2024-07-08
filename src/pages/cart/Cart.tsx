@@ -9,10 +9,22 @@ import Footer from "../../components/footer/Footer";
 import { useShopingCardContext } from "../../context/ShppingCartContext";
 import { TbHandClick } from "react-icons/tb";
 import emptycart from '../../assets/img/empty-cart.svg' 
+import { toast, ToastContainer } from "react-toastify";
+import './Cart.css'
 function Cart() {
 
   const {cartItems , CartQty} = useShopingCardContext()
- 
+  const notify = () =>
+    toast.warning("Please Login first", {
+      position: "top-center",
+      autoClose: 1500,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: "dark",
+    }); /* notify message */
   return (
    <>
    {CartQty == 0 ?
@@ -67,7 +79,20 @@ function Cart() {
             </div>
             <div className="w-full flex flex-col justify-center items-center">
                 <h2 className="dark:text-my-white poppins text-blue-four sm:text-2xl">Total : <span>254 $</span></h2>
-                <button className="flex justify-center items-center gap-2 transition-all w-[60%] p-2 mt-4 sm:w-[60%] md:w-[50%] bg-blue-100 dark:bg-transparent dark:hover:shadow-md dark:hover:shadow-blue-three text-blue-four hover:text-my-white hover:bg-blue-three dark:hover:bg-transparent    dark:text-blue-three  rounded-md text-xs sm:text-base dark:border-b-blue-two shadow-sm  shadow-blue-three" type="submit"><span>CheckOut</span><span><MdKeyboardDoubleArrowRight /></span></button>
+                <button onClick={()=>{notify()}} className="flex justify-center items-center gap-2 transition-all w-[60%] p-2 mt-4 sm:w-[60%] md:w-[50%] bg-blue-100 dark:bg-transparent dark:hover:shadow-md dark:hover:shadow-blue-three text-blue-four hover:text-my-white hover:bg-blue-three dark:hover:bg-transparent    dark:text-blue-three  rounded-md text-xs sm:text-base dark:border-b-blue-two shadow-sm  shadow-blue-three" type="submit"><span>CheckOut</span><span><MdKeyboardDoubleArrowRight /></span></button>
+                <ToastContainer
+                        position="bottom-right"
+                        autoClose={1000}
+                        hideProgressBar
+                        newestOnTop={false}
+                        closeOnClick={true}
+                        rtl={false}
+                        pauseOnFocusLoss
+                        draggable
+                        pauseOnHover
+                        theme="colored"
+                       
+                      />
             </div>
           </div>
           <div className="cart-items-container col-span-12  md:col-span-7  h-auto rounded-sm p-8  flex flex-col overflow-hidden">

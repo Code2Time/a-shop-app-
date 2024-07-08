@@ -1,0 +1,24 @@
+.Toastify__toast--warning {
+  border: 1px solid #e7832667  !important;
+  border-radius: 15px !important;
+  background: #fadfc5e1 !important;
+  color: black !important;
+  line-height: 60px !important;
+  height: 60px !important;
+}
+ 
+.Toastify__toast-body {
+  color: #000000    ;
+  font-family: 'poppins' , sans-serif;
+  font-size: 16px;
+  padding-left: 20px;
+  line-height: 10px !important;
+  width: 80% !important;
+  font-weight: 400;
+  margin-left: 25px !important;
+} 
+.Toastify__toast > button>  svg {
+   margin-top: 12px;
+   margin-right: 5px;
+   color: #000000;
+}
