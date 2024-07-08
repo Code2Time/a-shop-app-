@@ -22,7 +22,7 @@ const Category = () => {
           <CategoryItem key={item.id} {...item} />
         ))}
         <Link
-          to="/products"
+          to="/store"
           className=" col-span-12 sm:col-span-6  text-center mt-7 sm:mt-16  sm:col-start-4 h-5 sm:h-10"
         >
           <button
