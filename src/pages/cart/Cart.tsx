@@ -122,7 +122,7 @@ function Cart() {
                 </div>
                 <div className="w-full flex flex-col justify-center items-center">
                   <h2 className="dark:text-my-white poppins text-blue-four sm:text-2xl">
-                    Total : <span>254 $</span>
+                    Total : <span>.... $</span>
                   </h2>
                   <button
                     onClick={() => {
