@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 
 function Darkmode() {
-  const root = document.getElementById("root") as HTMLElement;
+
 
   const [them, setThem] = useState<string>("dark");
 

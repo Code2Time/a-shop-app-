@@ -1,4 +1,4 @@
-import { Link, useParams } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import { ProductsData } from "../Store/ProductsData";
 import { useEffect, useState } from "react";
 import { Iallproducts } from "../../components/types/Iproducts";
@@ -27,7 +27,7 @@ function Product() {
 
   let selected = products.filter((item) => item.id == param.id);
 
-  const { HandleIncreaseProductQty, cartItems, CartQty } =
+  const { HandleIncreaseProductQty, cartItems } =
     useShopingCardContext();
   console.log(cartItems);
 

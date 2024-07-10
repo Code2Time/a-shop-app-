@@ -36,7 +36,7 @@ function Ads({ children, baseVelocity = 100 }: ParallaxProps) {
   const x = useTransform(baseX, (v) => `${wrap(-20, -45, v)}%`);
 
   const directionFactor = useRef<number>(1);
-  useAnimationFrame((t, delta) => {
+  useAnimationFrame((delta) => {
     let moveBy = directionFactor.current * baseVelocity * (delta / 1000);
 
     /**

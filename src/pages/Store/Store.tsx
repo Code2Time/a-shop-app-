@@ -1,4 +1,3 @@
-import React, { useEffect, useState } from "react";
 import Navbar from "../../components/navbar/Navbar";
 import Container from "../../components/container/Container";
 import { IoLocationSharp } from "react-icons/io5";
@@ -8,6 +7,7 @@ import ProductItem from "../../components/productitem/ProductItem";
 import Head from "../../components/Head/Head";
 import { ProductsData } from "./ProductsData";
 import Footer from "../../components/footer/Footer";
+import { useEffect, useState } from "react";
 
 function Store() {
   const [isLoading, setIsLoading] = useState<boolean>(true);
