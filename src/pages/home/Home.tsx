@@ -64,7 +64,7 @@ function Home() {
             <Category />
           </Container>
           <div className=" mt-5 sm:mt-36      md:mt-40">
-            <Ads
+            {/* <Ads
               children="  Lorem ipsum dolor sit amet consectetur adiibus eligendi posrat commodi "
               key={1}
               baseVelocity={0.7}
@@ -73,7 +73,7 @@ function Home() {
               children="  Lorem ipsum dolor sit amet consectetur adiibus eligendi posrat commodi "
               key={1}
               baseVelocity={-0.7}
-            />
+            /> */}
           </div>
           <Container>
             <Explore />
