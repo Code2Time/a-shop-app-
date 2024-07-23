@@ -5,7 +5,7 @@ export default {
   theme: {
     extend: {
       screens: {
-        sm: "380px",
+        sm: "500px",
         // => @media (min-width: 380px) { ... }
 
         md: "768px",
