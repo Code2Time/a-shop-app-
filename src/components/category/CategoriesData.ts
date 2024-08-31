@@ -1,50 +1,60 @@
+import Smartphones from '../../assets/img/categories/6.png';
+import DECORATION from '../../assets/img/categories/4.png';
+import FRAGRANCES from '../../assets/img/categories/1.png';
+import GROCERIES from '../../assets/img/categories/3.png';
+import FURNITURE from '../../assets/img/categories/2.png';
+import watches from '../../assets/img/categories/8.png';
+import Laptops from '../../assets/img/categories/5.png';
+import Shirts from '../../assets/img/categories/7.png';
+
 export const AllCategories = [
   {
     id: 1,
     name: "FRAGRANCES",
-    image:
-      "https://cdn.dummyjson.com/products/images/fragrances/Chanel%20Coco%20Noir%20Eau%20De/thumbnail.png",
+    image:FRAGRANCES
   },
+
+
   {
     id: 2,
     name: "FURNITURE",
     image:
-      "https://cdn.dummyjson.com/products/images/furniture/Annibale%20Colombo%20Sofa/thumbnail.png",
+    FURNITURE
   },
   {
     id: 3,
     name: "GROCERIES",
     image:
-      "https://cdn.dummyjson.com/products/images/groceries/Cat%20Food/thumbnail.png",
+    GROCERIES
   },
   {
     id: 4,
     name: "HOME DECORATION",
     image:
-      "https://cdn.dummyjson.com/products/images/home-decoration/Decoration%20Swing/thumbnail.png",
+    DECORATION
   },
   {
     id: 5,
     name: "Laptops ",
     image:
-      "https://cdn.dummyjson.com/products/images/laptops/Apple%20MacBook%20Pro%2014%20Inch%20Space%20Grey/1.png",
+    Laptops
   },
   {
     id: 6,
     name: "Smartphones ",
     image:
-      "https://cdn.dummyjson.com/products/images/smartphones/iPhone%205s/3.png",
+    Smartphones
   },
   {
     id: 7,
     name: "Mens Shirts ",
     image:
-      "https://cdn.dummyjson.com/products/images/mens-shirts/Blue%20&%20Black%20Check%20Shirt/1.png",
+    Shirts
   },
   {
     id: 8,
     name: "womens-watches ",
     image:
-      "https://cdn.dummyjson.com/products/images/womens-watches/IWC%20Ingenieur%20Automatic%20Steel/1.png",
+    watches
   },
 ];
